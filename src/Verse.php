@@ -26,4 +26,14 @@ class Verse
     {
         return $this->chapter;
     }
+
+    public function shortReference(): string
+    {
+        return $this->chapter->number() . ':' . $this->number;
+    }
+
+    public function fullReference(): string
+    {
+        return $this->chapter->book()->name() . ' ' . $this->shortReference();
+    }
 }
