@@ -48,15 +48,15 @@ class VerseTest extends TestCase
         $this->assertSame($newChapter, $verse->chapter());
     }
 
-    public function testShortReference(): void
+    public function testChapterReference(): void
     {
         $this->chapter->method('number')->willReturn(1);
         $verse = new Verse('Test verse text', 1, $this->chapter);
         
-        $this->assertEquals('1:1', $verse->shortReference());
+        $this->assertEquals('1:1', $verse->chapterReference());
     }
 
-    public function testFullReference(): void
+    public function testBookReference(): void
     {
         $this->book->method('name')->willReturn('Genesis');
         $this->chapter->method('number')->willReturn(1);
@@ -64,6 +64,6 @@ class VerseTest extends TestCase
         
         $verse = new Verse('Test verse text', 1, $this->chapter);
         
-        $this->assertEquals('Genesis 1:1', $verse->fullReference());
+        $this->assertEquals('Genesis 1:1', $verse->bookReference());
     }
 } 
