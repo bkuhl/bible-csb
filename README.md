@@ -122,7 +122,3 @@ $genesis = $bookFactory->make(BookEnum::GENESIS);
 $verseText = $genesis->verse(1); // Returns the text of verse 1 from any chapter
 ```
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
