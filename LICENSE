@@ -19,3 +19,26 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+CSB Text Disclaimer:
+
+This library facilitates interaction with the Christian Standard Bible (CSB) text,
+which is copyrighted by Holman Bible Publishers. The CSB text is not included in
+this library unless explicitly stated (e.g., sample verses within permissible limits).
+Use of the CSB text is subject to the following restrictions:
+
+- Up to 1,000 verses may be quoted without written permission, provided they do not
+  account for more than 50% of the work and do not constitute a complete book of the
+  Bible. A credit line must be included: "Scripture quotations marked CSB have been
+  taken from the Christian Standard Bible®, Copyright © 2017 by Holman Bible
+  Publishers. Used by permission. Christian Standard Bible® and CSB® are federally
+  registered trademarks of Holman Bible Publishers."
+- Usage exceeding these limits or for commercial purposes requires written permission
+  from Holman Bible Publishers (200 Powell Pl Suite 100, Brentwood, TN 37027, or
+  contact permissions@lifeway.com).
+
+Users of this library are solely responsible for obtaining necessary permissions
+from Holman Bible Publishers for any CSB text used with this library. The license
+for this library does not grant any rights to the CSB text itself.

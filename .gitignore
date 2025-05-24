@@ -1,0 +1,5 @@
+.idea
+stub
+books-xml
+vendor
+.phpunit.result.cache
