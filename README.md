@@ -1,4 +1,4 @@
-# Bible Translation CSB
+# PHP Bible Translation CSB Library
 
 A PHP library for working with the Christian Standard Bible (CSB) translation. This library provides a clean, object-oriented interface for accessing Bible text, chapters, and verses.
 
