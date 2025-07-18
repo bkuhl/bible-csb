@@ -91,14 +91,14 @@ class BookFactoryTest extends TestCase
     public function testMakeByTestamentReturnsCorrectBooksForOldTestament(): void
     {
         $books = $this->bookFactory->makeByTestament(Testament::OLD);
-        
+
         $this->assertNotEmpty($books);
         $this->assertContainsOnlyInstancesOf(BookInterface::class, $books);
-        
+
         foreach ($books as $book) {
             $this->assertEquals(Testament::OLD, $book->testament());
         }
-        
+
         // Verify books are in correct order
         $this->assertEquals(Genesis::ID, $books[Genesis::ID]->position()); // Genesis
         $this->assertEquals(Malachi::ID, $books[Malachi::ID]->position()); // Malachi
@@ -108,14 +108,14 @@ class BookFactoryTest extends TestCase
     public function testMakeByTestamentReturnsCorrectBooksForNewTestament(): void
     {
         $books = $this->bookFactory->makeByTestament(Testament::NEW);
-        
+
         $this->assertNotEmpty($books);
         $this->assertContainsOnlyInstancesOf(BookInterface::class, $books);
-        
+
         foreach ($books as $book) {
             $this->assertEquals(Testament::NEW, $book->testament());
         }
-        
+
         // Verify books are in correct order
         $this->assertEquals(Matthew::ID, $books[Matthew::ID]->position()); // Matthew
         $this->assertEquals(Revelation::ID, $books[Revelation::ID]->position()); // Revelation
@@ -125,17 +125,17 @@ class BookFactoryTest extends TestCase
     public function testMakeAllReturnsAllBooksInCorrectOrder(): void
     {
         $books = $this->bookFactory->makeAll();
-        
+
         $this->assertNotEmpty($books);
         $this->assertContainsOnlyInstancesOf(BookInterface::class, $books);
-        
+
         // Verify total count
         $this->assertCount(66, $books);
-        
+
         // Verify first and last books
         $this->assertEquals(Genesis::ID, $books[Genesis::ID]->position()); // Genesis
         $this->assertEquals(Revelation::ID, $books[Revelation::ID]->position()); // Revelation
-        
+
         // Verify books are in ascending order
         $positions = array_keys($books);
         for ($i = 0; $i < count($positions) - 1; $i++) {
@@ -158,7 +158,7 @@ class BookFactoryTest extends TestCase
     public function testMakeReturnsCorrectBook(BookEnum $type, string $expectedName, int $expectedPosition, Testament $expectedTestament): void
     {
         $book = $this->bookFactory->make($type);
-        
+
         $this->assertInstanceOf(BookInterface::class, $book);
         $this->assertEquals($expectedName, $book->name());
         $this->assertEquals($expectedPosition, $book->position());
@@ -242,10 +242,10 @@ class BookFactoryTest extends TestCase
     public function testMakeByTestamentReturnsBooksInCorrectOrder(Testament $testament, int $position, string $expectedName): void
     {
         $books = $this->bookFactory->makeByTestament($testament);
-        
+
         $this->assertArrayHasKey($position, $books);
         $book = $books[$position];
-        
+
         $this->assertEquals($expectedName, $book->name());
         $this->assertEquals($position, $book->position());
         $this->assertEquals($testament, $book->testament());
@@ -331,10 +331,10 @@ class BookFactoryTest extends TestCase
     public function testMakeAllReturnsBooksInCorrectOrder(int $position, string $expectedName, Testament $expectedTestament): void
     {
         $books = $this->bookFactory->makeAll();
-        
+
         $this->assertArrayHasKey($position, $books);
         $book = $books[$position];
-        
+
         $this->assertEquals($expectedName, $book->name());
         $this->assertEquals($position, $book->position());
         $this->assertEquals($expectedTestament, $book->testament());
@@ -414,4 +414,97 @@ class BookFactoryTest extends TestCase
             [Revelation::ID, 'Revelation', Testament::NEW],
         ];
     }
-} 
+
+    #[Test]
+    #[DataProvider('makeByAbbreviationProvider')]
+    public function testMakeByAbbreviationReturnsCorrectBook(string $abbreviation, string $expectedName, int $expectedPosition, Testament $expectedTestament): void
+    {
+        $book = $this->bookFactory->makeByAbbreviation($abbreviation);
+
+        $this->assertInstanceOf(BookInterface::class, $book);
+        $this->assertEquals($expectedName, $book->name());
+        $this->assertEquals($expectedPosition, $book->position());
+        $this->assertEquals($expectedTestament, $book->testament());
+    }
+
+    public static function makeByAbbreviationProvider(): array
+    {
+        return [
+            'Genesis' => ['Gen', 'Genesis', Genesis::ID, Testament::OLD],
+            'Exodus' => ['Ex', 'Exodus', Exodus::ID, Testament::OLD],
+            'Leviticus' => ['Lev', 'Leviticus', Leviticus::ID, Testament::OLD],
+            'Numbers' => ['Num', 'Numbers', Numbers::ID, Testament::OLD],
+            'Deuteronomy' => ['Deut', 'Deuteronomy', Deuteronomy::ID, Testament::OLD],
+            'Joshua' => ['Josh', 'Joshua', Joshua::ID, Testament::OLD],
+            'Judges' => ['Judg', 'Judges', Judges::ID, Testament::OLD],
+            'Ruth' => ['Ruth', 'Ruth', Ruth::ID, Testament::OLD],
+            '1 Samuel' => ['1 Sam', '1 Samuel', FirstSamuel::ID, Testament::OLD],
+            '2 Samuel' => ['2 Sam', '2 Samuel', SecondSamuel::ID, Testament::OLD],
+            '1 Kings' => ['1 Kings', '1 Kings', FirstKings::ID, Testament::OLD],
+            '2 Kings' => ['2 Kings', '2 Kings', SecondKings::ID, Testament::OLD],
+            '1 Chronicles' => ['1 Chron', '1 Chronicles', FirstChronicles::ID, Testament::OLD],
+            '2 Chronicles' => ['2 Chron', '2 Chronicles', SecondChronicles::ID, Testament::OLD],
+            'Ezra' => ['Ezra', 'Ezra', Ezra::ID, Testament::OLD],
+            'Nehemiah' => ['Neh', 'Nehemiah', Nehemiah::ID, Testament::OLD],
+            'Esther' => ['Est', 'Esther', Esther::ID, Testament::OLD],
+            'Job' => ['Job', 'Job', Job::ID, Testament::OLD],
+            'Psalms' => ['Ps', 'Psalms', Psalms::ID, Testament::OLD],
+            'Proverbs' => ['Prov', 'Proverbs', Proverbs::ID, Testament::OLD],
+            'Ecclesiastes' => ['Eccles', 'Ecclesiastes', Ecclesiastes::ID, Testament::OLD],
+            'Song of Solomon' => ['Song', 'Song of Solomon', SongOfSolomon::ID, Testament::OLD],
+            'Isaiah' => ['Isa', 'Isaiah', Isaiah::ID, Testament::OLD],
+            'Jeremiah' => ['Jer', 'Jeremiah', Jeremiah::ID, Testament::OLD],
+            'Lamentations' => ['Lam', 'Lamentations', Lamentations::ID, Testament::OLD],
+            'Ezekiel' => ['Ezek', 'Ezekiel', Ezekiel::ID, Testament::OLD],
+            'Daniel' => ['Dan', 'Daniel', Daniel::ID, Testament::OLD],
+            'Hosea' => ['Hos', 'Hosea', Hosea::ID, Testament::OLD],
+            'Joel' => ['Joel', 'Joel', Joel::ID, Testament::OLD],
+            'Amos' => ['Amos', 'Amos', Amos::ID, Testament::OLD],
+            'Obadiah' => ['Obad', 'Obadiah', Obadiah::ID, Testament::OLD],
+            'Jonah' => ['Jonah', 'Jonah', Jonah::ID, Testament::OLD],
+            'Micah' => ['Mic', 'Micah', Micah::ID, Testament::OLD],
+            'Nahum' => ['Nah', 'Nahum', Nahum::ID, Testament::OLD],
+            'Habakkuk' => ['Hab', 'Habakkuk', Habakkuk::ID, Testament::OLD],
+            'Zephaniah' => ['Zeph', 'Zephaniah', Zephaniah::ID, Testament::OLD],
+            'Haggai' => ['Hag', 'Haggai', Haggai::ID, Testament::OLD],
+            'Zechariah' => ['Zech', 'Zechariah', Zechariah::ID, Testament::OLD],
+            'Malachi' => ['Mal', 'Malachi', Malachi::ID, Testament::OLD],
+            'Matthew' => ['Matt', 'Matthew', Matthew::ID, Testament::NEW],
+            'Mark' => ['Mark', 'Mark', Mark::ID, Testament::NEW],
+            'Luke' => ['Luke', 'Luke', Luke::ID, Testament::NEW],
+            'John' => ['John', 'John', John::ID, Testament::NEW],
+            'Acts' => ['Acts', 'Acts', Acts::ID, Testament::NEW],
+            'Romans' => ['Rom', 'Romans', Romans::ID, Testament::NEW],
+            '1 Corinthians' => ['1 Cor', '1 Corinthians', FirstCorinthians::ID, Testament::NEW],
+            '2 Corinthians' => ['2 Cor', '2 Corinthians', SecondCorinthians::ID, Testament::NEW],
+            'Galatians' => ['Gal', 'Galatians', Galatians::ID, Testament::NEW],
+            'Ephesians' => ['Eph', 'Ephesians', Ephesians::ID, Testament::NEW],
+            'Philippians' => ['Phil', 'Philippians', Philippians::ID, Testament::NEW],
+            'Colossians' => ['Col', 'Colossians', Colossians::ID, Testament::NEW],
+            '1 Thessalonians' => ['1 Thess', '1 Thessalonians', FirstThessalonians::ID, Testament::NEW],
+            '2 Thessalonians' => ['2 Thess', '2 Thessalonians', SecondThessalonians::ID, Testament::NEW],
+            '1 Timothy' => ['1 Tim', '1 Timothy', FirstTimothy::ID, Testament::NEW],
+            '2 Timothy' => ['2 Tim', '2 Timothy', SecondTimothy::ID, Testament::NEW],
+            'Titus' => ['Titus', 'Titus', Titus::ID, Testament::NEW],
+            'Philemon' => ['Philem', 'Philemon', Philemon::ID, Testament::NEW],
+            'Hebrews' => ['Heb', 'Hebrews', Hebrews::ID, Testament::NEW],
+            'James' => ['James', 'James', James::ID, Testament::NEW],
+            '1 Peter' => ['1 Pet', '1 Peter', FirstPeter::ID, Testament::NEW],
+            '2 Peter' => ['2 Pet', '2 Peter', SecondPeter::ID, Testament::NEW],
+            '1 John' => ['1 John', '1 John', FirstJohn::ID, Testament::NEW],
+            '2 John' => ['2 John', '2 John', SecondJohn::ID, Testament::NEW],
+            '3 John' => ['3 John', '3 John', ThirdJohn::ID, Testament::NEW],
+            'Jude' => ['Jude', 'Jude', Jude::ID, Testament::NEW],
+            'Revelation' => ['Rev', 'Revelation', Revelation::ID, Testament::NEW],
+        ];
+    }
+
+    #[Test]
+    public function testMakeByAbbreviationThrowsExceptionForInvalidAbbreviation(): void
+    {
+        $this->expectException(\InvalidArgumentException::class);
+        $this->expectExceptionMessage('No book class found for abbreviation: Invalid');
+
+        $this->bookFactory->makeByAbbreviation('Invalid');
+    }
+}

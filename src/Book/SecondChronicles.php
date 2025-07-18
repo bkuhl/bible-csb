@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class SecondChronicles extends Book
 {
-    private const ABBREVIATION = '2 Chron';
+    public const ABBREVIATION = '2 Chron';
     public const ID = 14;
 
     public function testament(): Testament

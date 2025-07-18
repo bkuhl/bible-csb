@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Isaiah extends Book
 {
-    private const ABBREVIATION = 'Isa';
+    public const ABBREVIATION = 'Isa';
     public const ID = 23;
 
     public function testament(): Testament

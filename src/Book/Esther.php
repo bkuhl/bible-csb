@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Esther extends Book
 {
-    private const ABBREVIATION = 'Est';
+    public const ABBREVIATION = 'Est';
     public const ID = 17;
 
     public function testament(): Testament

@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Genesis extends Book
 {
-    private const ABBREVIATION = 'Gen';
+    public const ABBREVIATION = 'Gen';
     public const ID = 1;
 
     public function testament(): Testament

@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Job extends Book
 {
-    private const ABBREVIATION = 'Job';
+    public const ABBREVIATION = 'Job';
     public const ID = 18;
 
     public function testament(): Testament

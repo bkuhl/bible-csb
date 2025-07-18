@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Deuteronomy extends Book
 {
-    private const ABBREVIATION = 'Deut';
+    public const ABBREVIATION = 'Deut';
     public const ID = 5;
 
     public function testament(): Testament

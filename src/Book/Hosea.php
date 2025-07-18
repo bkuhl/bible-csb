@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Hosea extends Book
 {
-    private const ABBREVIATION = 'Hos';
+    public const ABBREVIATION = 'Hos';
     public const ID = 28;
 
     public function testament(): Testament

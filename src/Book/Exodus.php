@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Exodus extends Book
 {
-    private const ABBREVIATION = 'Ex';
+    public const ABBREVIATION = 'Ex';
     public const ID = 2;
 
     public function testament(): Testament

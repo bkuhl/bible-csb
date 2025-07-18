@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Hebrews extends Book
 {
-    private const ABBREVIATION = 'Heb';
+    public const ABBREVIATION = 'Heb';
     public const ID = 58;
 
     public function testament(): Testament

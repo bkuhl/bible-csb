@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Leviticus extends Book
 {
-    private const ABBREVIATION = 'Lev';
+    public const ABBREVIATION = 'Lev';
     public const ID = 3;
 
     public function testament(): Testament

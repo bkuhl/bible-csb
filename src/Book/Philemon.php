@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Philemon extends Book
 {
-    private const ABBREVIATION = 'Philem';
+    public const ABBREVIATION = 'Philem';
     public const ID = 57;
 
     public function testament(): Testament

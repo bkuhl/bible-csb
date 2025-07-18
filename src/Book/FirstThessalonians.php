@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class FirstThessalonians extends Book
 {
-    private const ABBREVIATION = '1 Thess';
+    public const ABBREVIATION = '1 Thess';
     public const ID = 52;
 
     public function testament(): Testament

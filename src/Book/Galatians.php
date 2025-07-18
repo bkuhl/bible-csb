@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Galatians extends Book
 {
-    private const ABBREVIATION = 'Gal';
+    public const ABBREVIATION = 'Gal';
     public const ID = 48;
 
     public function testament(): Testament

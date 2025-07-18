@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class SecondJohn extends Book
 {
-    private const ABBREVIATION = '2 John';
+    public const ABBREVIATION = '2 John';
     public const ID = 63;
 
     public function testament(): Testament

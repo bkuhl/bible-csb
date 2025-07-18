@@ -146,9 +146,88 @@ class BookFactory
         Revelation::ID => Revelation::class,
     ];
 
+    /**
+     * Maps book abbreviations to their concrete Book classes
+     * @var array<string, class-string<Book>>
+     */
+    private static array $abbreviationMap = [
+        Genesis::ABBREVIATION => Genesis::class,
+        Exodus::ABBREVIATION => Exodus::class,
+        Leviticus::ABBREVIATION => Leviticus::class,
+        Numbers::ABBREVIATION => Numbers::class,
+        Deuteronomy::ABBREVIATION => Deuteronomy::class,
+        Joshua::ABBREVIATION => Joshua::class,
+        Judges::ABBREVIATION => Judges::class,
+        Ruth::ABBREVIATION => Ruth::class,
+        FirstSamuel::ABBREVIATION => FirstSamuel::class,
+        SecondSamuel::ABBREVIATION => SecondSamuel::class,
+        FirstKings::ABBREVIATION => FirstKings::class,
+        SecondKings::ABBREVIATION => SecondKings::class,
+        FirstChronicles::ABBREVIATION => FirstChronicles::class,
+        SecondChronicles::ABBREVIATION => SecondChronicles::class,
+        Ezra::ABBREVIATION => Ezra::class,
+        Nehemiah::ABBREVIATION => Nehemiah::class,
+        Esther::ABBREVIATION => Esther::class,
+        Job::ABBREVIATION => Job::class,
+        Psalms::ABBREVIATION => Psalms::class,
+        Proverbs::ABBREVIATION => Proverbs::class,
+        Ecclesiastes::ABBREVIATION => Ecclesiastes::class,
+        SongOfSolomon::ABBREVIATION => SongOfSolomon::class,
+        Isaiah::ABBREVIATION => Isaiah::class,
+        Jeremiah::ABBREVIATION => Jeremiah::class,
+        Lamentations::ABBREVIATION => Lamentations::class,
+        Ezekiel::ABBREVIATION => Ezekiel::class,
+        Daniel::ABBREVIATION => Daniel::class,
+        Hosea::ABBREVIATION => Hosea::class,
+        Joel::ABBREVIATION => Joel::class,
+        Amos::ABBREVIATION => Amos::class,
+        Obadiah::ABBREVIATION => Obadiah::class,
+        Jonah::ABBREVIATION => Jonah::class,
+        Micah::ABBREVIATION => Micah::class,
+        Nahum::ABBREVIATION => Nahum::class,
+        Habakkuk::ABBREVIATION => Habakkuk::class,
+        Zephaniah::ABBREVIATION => Zephaniah::class,
+        Haggai::ABBREVIATION => Haggai::class,
+        Zechariah::ABBREVIATION => Zechariah::class,
+        Malachi::ABBREVIATION => Malachi::class,
+        Matthew::ABBREVIATION => Matthew::class,
+        Mark::ABBREVIATION => Mark::class,
+        Luke::ABBREVIATION => Luke::class,
+        John::ABBREVIATION => John::class,
+        Acts::ABBREVIATION => Acts::class,
+        Romans::ABBREVIATION => Romans::class,
+        FirstCorinthians::ABBREVIATION => FirstCorinthians::class,
+        SecondCorinthians::ABBREVIATION => SecondCorinthians::class,
+        Galatians::ABBREVIATION => Galatians::class,
+        Ephesians::ABBREVIATION => Ephesians::class,
+        Philippians::ABBREVIATION => Philippians::class,
+        Colossians::ABBREVIATION => Colossians::class,
+        FirstThessalonians::ABBREVIATION => FirstThessalonians::class,
+        SecondThessalonians::ABBREVIATION => SecondThessalonians::class,
+        FirstTimothy::ABBREVIATION => FirstTimothy::class,
+        SecondTimothy::ABBREVIATION => SecondTimothy::class,
+        Titus::ABBREVIATION => Titus::class,
+        Philemon::ABBREVIATION => Philemon::class,
+        Hebrews::ABBREVIATION => Hebrews::class,
+        James::ABBREVIATION => James::class,
+        FirstPeter::ABBREVIATION => FirstPeter::class,
+        SecondPeter::ABBREVIATION => SecondPeter::class,
+        FirstJohn::ABBREVIATION => FirstJohn::class,
+        SecondJohn::ABBREVIATION => SecondJohn::class,
+        ThirdJohn::ABBREVIATION => ThirdJohn::class,
+        Jude::ABBREVIATION => Jude::class,
+        Revelation::ABBREVIATION => Revelation::class,
+    ];
+
     public function make(BookEnum $type): BookInterface
     {
         $bookClass = self::$bookClassMap[$type->value] ?? throw new \InvalidArgumentException("No book class found for type: {$type->value}");
+        return new $bookClass();
+    }
+
+    public function makeByAbbreviation(string $abbreviation): BookInterface
+    {
+        $bookClass = self::$abbreviationMap[$abbreviation] ?? throw new \InvalidArgumentException("No book class found for abbreviation: {$abbreviation}");
         return new $bookClass();
     }
 

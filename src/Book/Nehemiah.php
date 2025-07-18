@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Nehemiah extends Book
 {
-    private const ABBREVIATION = 'Neh';
+    public const ABBREVIATION = 'Neh';
     public const ID = 16;
 
     public function testament(): Testament

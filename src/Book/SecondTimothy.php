@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class SecondTimothy extends Book
 {
-    private const ABBREVIATION = '2 Tim';
+    public const ABBREVIATION = '2 Tim';
     public const ID = 55;
 
     public function testament(): Testament

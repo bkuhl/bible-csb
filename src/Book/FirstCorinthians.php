@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class FirstCorinthians extends Book
 {
-    private const ABBREVIATION = '1 Cor';
+    public const ABBREVIATION = '1 Cor';
     public const ID = 46;
 
     public function testament(): Testament
