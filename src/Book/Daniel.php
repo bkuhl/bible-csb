@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Daniel extends Book
 {
-    private const ABBREVIATION = 'Dan';
+    public const ABBREVIATION = 'Dan';
     public const ID = 27;
 
     public function testament(): Testament

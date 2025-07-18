@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class SongOfSolomon extends Book
 {
-    private const ABBREVIATION = 'Song';
+    public const ABBREVIATION = 'Song';
     public const ID = 22;
 
     public function testament(): Testament

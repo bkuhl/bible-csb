@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Nahum extends Book
 {
-    private const ABBREVIATION = 'Nah';
+    public const ABBREVIATION = 'Nah';
     public const ID = 34;
 
     public function testament(): Testament

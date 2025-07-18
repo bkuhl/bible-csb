@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Malachi extends Book
 {
-    private const ABBREVIATION = 'Mal';
+    public const ABBREVIATION = 'Mal';
     public const ID = 39;
 
     public function testament(): Testament

@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Ecclesiastes extends Book
 {
-    private const ABBREVIATION = 'Eccles';
+    public const ABBREVIATION = 'Eccles';
     public const ID = 21;
 
     public function testament(): Testament

@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Jeremiah extends Book
 {
-    private const ABBREVIATION = 'Jer';
+    public const ABBREVIATION = 'Jer';
     public const ID = 24;
 
     public function testament(): Testament

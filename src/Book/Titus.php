@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Titus extends Book
 {
-    private const ABBREVIATION = 'Titus';
+    public const ABBREVIATION = 'Titus';
     public const ID = 56;
 
     public function testament(): Testament

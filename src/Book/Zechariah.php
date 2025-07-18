@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Zechariah extends Book
 {
-    private const ABBREVIATION = 'Zech';
+    public const ABBREVIATION = 'Zech';
     public const ID = 38;
 
     public function testament(): Testament

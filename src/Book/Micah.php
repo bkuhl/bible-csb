@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Micah extends Book
 {
-    private const ABBREVIATION = 'Mic';
+    public const ABBREVIATION = 'Mic';
     public const ID = 33;
 
     public function testament(): Testament

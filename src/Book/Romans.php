@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Romans extends Book
 {
-    private const ABBREVIATION = 'Rom';
+    public const ABBREVIATION = 'Rom';
     public const ID = 45;
 
     public function testament(): Testament

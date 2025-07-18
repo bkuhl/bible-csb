@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Proverbs extends Book
 {
-    private const ABBREVIATION = 'Prov';
+    public const ABBREVIATION = 'Prov';
     public const ID = 20;
 
     public function testament(): Testament

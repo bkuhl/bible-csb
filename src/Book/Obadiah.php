@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Obadiah extends Book
 {
-    private const ABBREVIATION = 'Obad';
+    public const ABBREVIATION = 'Obad';
     public const ID = 31;
 
     public function testament(): Testament

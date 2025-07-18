@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Habakkuk extends Book
 {
-    private const ABBREVIATION = 'Hab';
+    public const ABBREVIATION = 'Hab';
     public const ID = 35;
 
     public function testament(): Testament

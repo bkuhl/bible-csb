@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Judges extends Book
 {
-    private const ABBREVIATION = 'Judg';
+    public const ABBREVIATION = 'Judg';
     public const ID = 7;
 
     public function testament(): Testament

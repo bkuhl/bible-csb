@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Psalms extends Book
 {
-    private const ABBREVIATION = 'Ps';
+    public const ABBREVIATION = 'Ps';
     public const ID = 19;
 
     public function testament(): Testament

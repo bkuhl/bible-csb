@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Haggai extends Book
 {
-    private const ABBREVIATION = 'Hag';
+    public const ABBREVIATION = 'Hag';
     public const ID = 37;
 
     public function testament(): Testament

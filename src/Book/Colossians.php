@@ -9,7 +9,7 @@ use BKuhl\BibleCSB\Testament;
 
 class Colossians extends Book
 {
-    private const ABBREVIATION = 'Col';
+    public const ABBREVIATION = 'Col';
     public const ID = 51;
 
     public function testament(): Testament
