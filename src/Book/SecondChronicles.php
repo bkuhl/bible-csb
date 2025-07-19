@@ -291,7 +291,8 @@ class SecondChronicles extends Book
                     38 => 'and when they return to you with all their mind and all their heart in the land of their captivity where they were taken captive, and when they pray in the direction of their land that you gave their ancestors, and the city you have chosen, and toward the temple I have built for your name,',
                     39 => 'may you hear their prayer and petitions in heaven, your dwelling place, and uphold their cause. May you forgive your people who sinned against you.',
                     40 => 'Now, my God, please let your eyes be open and your ears attentive to the prayer of this place.',
-                    41 => 'Now therefore:',
+                    41 => 'Now therefore: Arise, Lord God, come to your resting place, you and your powerful ark. May your priests, Lord God, be clothed with salvation, and may your faithful people rejoice in goodness.',
+                    42 => 'Lord God, do not reject your anointed one; remember your servant David\'s acts of faithful love.',
                 ],
                 'versesToSections' => [
                     1 => 1,
@@ -335,6 +336,7 @@ class SecondChronicles extends Book
                     39 => 2,
                     40 => 2,
                     41 => 2,
+                    42 => 2,
                 ],
             ],
             7 => [
