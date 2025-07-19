@@ -53,7 +53,7 @@ class Romans extends Book
                     4 => 'and was appointed to be the powerful Son of God according to the Spirit of holiness by the resurrection of the dead.',
                     5 => 'Through him we have received grace and apostleship to bring about the obedience of faith for the sake of his name among all the Gentiles,',
                     6 => 'including you who are also called by Jesus Christ.',
-                    7 => 'To all who are in Rome, loved by God, called as saints.',
+                    7 => 'To all who are in Rome, loved by God, called as saints. Grace to you and peace from God our Father and the Lord Jesus Christ.',
                     8 => 'First, I thank my God through Jesus Christ for all of you because the news of your faith is being reported in all the world.',
                     9 => 'God is my witness, whom I serve with my spirit in telling the good news about his Son — that I constantly mention you,',
                     10 => 'always asking in my prayers that if it is somehow in God\'s will, I may now at last succeed in coming to you.',
@@ -723,6 +723,9 @@ class Romans extends Book
                     30 => 'As you once disobeyed God but now have received mercy through their disobedience,',
                     31 => 'so they too have now disobeyed, resulting in mercy to you, so that they also may now receive mercy.',
                     32 => 'For God has imprisoned all in disobedience so that he may have mercy on all.',
+                    33 => 'Oh, the depth of the riches and the wisdom and the knowledge of God! How unsearchable his judgments and untraceable his ways!',
+                    34 => ' ',
+                    36 => 'For from him and through him and to him are all things. To him be the glory forever. Amen.',
                 ],
                 'versesToSections' => [
                     1 => 1,
@@ -755,6 +758,9 @@ class Romans extends Book
                     30 => 2,
                     31 => 2,
                     32 => 2,
+                    33 => 3,
+                    34 => 3,
+                    36 => 3,
                 ],
             ],
             12 => [

@@ -48,7 +48,7 @@ class Nahum extends Book
                 'verses' => [
                     1 => 'The pronouncement concerning Nineveh. The book of the vision of Nahum the Elkoshite.',
                     12 => 'This is what the Lord says:',
-                    14 => 'The has issued an order concerning you:',
+                    14 => 'The has issued an order concerning you: There will be no offspring to carry on your name. I will eliminate the carved idol and cast image from the house of your gods; I will prepare your grave, for you are contemptible.',
                 ],
                 'versesToSections' => [
                     1 => 0,

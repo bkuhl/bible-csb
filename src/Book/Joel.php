@@ -58,7 +58,7 @@ class Joel extends Book
                 ],
                 'verses' => [
                     18 => 'Then the became jealous for his land and spared his people.',
-                    19 => 'The answered his people:',
+                    19 => 'The answered his people: Look, I am about to send you grain, new wine, and fresh oil. You will be satiated with them, and I will no longer make you a disgrace among the nations.',
                 ],
                 'versesToSections' => [
                     18 => 2,

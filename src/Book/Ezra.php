@@ -69,7 +69,7 @@ class Ezra extends Book
                 ],
                 'verses' => [
                     1 => 'These now are the people of the province who came from those captive exiles King Nebuchadnezzar of Babylon had deported to Babylon. They returned to Jerusalem and Judah, each to his own town.',
-                    2 => 'They came with Zerubbabel, Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mispar, Bigvai, Rehum, and Baanah.',
+                    2 => 'They came with Zerubbabel, Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mispar, Bigvai, Rehum, and Baanah. The number of the Israelite men included',
                     36 => 'The priests included',
                     40 => 'The Levites included',
                     41 => 'The singers included',
@@ -186,7 +186,7 @@ class Ezra extends Book
                     4 => 'They also asked them, "What are the names of the workers who are constructing this building? "',
                     5 => 'But God was watching over the Jewish elders. These men wouldn\'t stop them until a report was sent to Darius, so that they could receive written instructions about this matter.',
                     6 => 'This is the text of the letter that Tattenai the governor of the region west of the Euphrates River, Shethar-bozenai, and their colleagues, the officials in the region, sent to King Darius.',
-                    7 => 'They sent him a report, written as follows:',
+                    7 => 'They sent him a report, written as follows: ',
                 ],
                 'versesToSections' => [
                     1 => 0,
@@ -365,7 +365,7 @@ class Ezra extends Book
                     17 => 'and by the first day of the first month they had dealt with all the men who had married foreign women.',
                     18 => 'The following were found to have married foreign women from the descendants of the priests:',
                     23 => 'The Levites:',
-                    24 => 'The singers:',
+                    24 => 'The singers: The gatekeepers:',
                     25 => 'The Israelites:',
                     44 => 'All of these had married foreign women, and some of the wives had given birth to children.',
                 ],

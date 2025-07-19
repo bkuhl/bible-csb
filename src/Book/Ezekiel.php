@@ -922,7 +922,7 @@ class Ezekiel extends Book
                 ],
                 'verses' => [
                     1 => 'The word of the came to me:',
-                    2 => '"What do you mean by using this proverb concerning the land of Israel:',
+                    2 => '"What do you mean by using this proverb concerning the land of Israel: ',
                     3 => 'As I live" — this is the declaration of the Lord God — "you will no longer use this proverb in Israel.',
                     4 => 'Look, every life belongs to me. The life of the father is like the life of the son — both belong to me. The person who sins is the one who will die.',
                     5 => '"Suppose a man is righteous and does what is just and right:',
@@ -996,10 +996,12 @@ class Ezekiel extends Book
                 'verses' => [
                     1 => '"As for you, take up a lament for the princes of Israel,',
                     2 => 'and say:',
+                    14 => 'This is a lament and should be used as a lament."',
                 ],
                 'versesToSections' => [
                     1 => 1,
                     2 => 1,
+                    14 => 1,
                 ],
             ],
             20 => [
@@ -1353,6 +1355,7 @@ class Ezekiel extends Book
                     3 => 'Now speak a parable to the rebellious house. Tell them, \'This is what the Lord God says:',
                     6 => '" \'Therefore, this is what the Lord God says:',
                     9 => '" \'Therefore, this is what the Lord God says:',
+                    14 => 'This is the declaration of the Lord God.\' "',
                     15 => 'Then the word of the Lord came to me:',
                     16 => '"Son of man, I am about to take the delight of your eyes away from you with a fatal blow. But you must not lament or weep or let your tears flow.',
                     17 => 'Groan quietly; do not observe mourning rites for the dead. Put on your turban and strap your sandals on your feet; do not cover your mustache or eat the bread of mourners."',
@@ -1373,6 +1376,7 @@ class Ezekiel extends Book
                     3 => 1,
                     6 => 1,
                     9 => 1,
+                    14 => 1,
                     15 => 2,
                     16 => 2,
                     17 => 2,
@@ -1539,6 +1543,7 @@ class Ezekiel extends Book
                     4 => 'By your wisdom and understanding you have acquired wealth for yourself. You have acquired gold and silver for your treasuries.',
                     5 => 'By your great skill in trading you have increased your wealth, but your heart has become proud because of your wealth.',
                     6 => '" \'Therefore, this is what the Lord God says:',
+                    10 => 'This is the declaration of the Lord God.\' "',
                     11 => 'The word of the Lord came to me:',
                     12 => '"Son of man, lament for the king of Tyre and say to him, \'This is what the Lord God says:',
                     20 => 'The word of the Lord came to me:',
@@ -1555,6 +1560,7 @@ class Ezekiel extends Book
                     4 => 1,
                     5 => 1,
                     6 => 1,
+                    10 => 1,
                     11 => 2,
                     12 => 2,
                     20 => 3,
@@ -1687,6 +1693,8 @@ class Ezekiel extends Book
                     16 => '" \'The daughters of the nations will chant that lament. They will chant it over Egypt and all its hordes. This is the declaration of the Lord God.\' "',
                     17 => 'In the twelfth year, on the fifteenth day of the month, the word of the Lord came to me:',
                     18 => '"Son of man, wail over the hordes of Egypt and bring Egypt and the daughters of mighty nations down to the underworld, to be with those who descend to the Pit:',
+                    31 => 'This is the declaration of the Lord God.',
+                    32 => 'This is the declaration of the Lord God.',
                 ],
                 'versesToSections' => [
                     1 => 1,
@@ -1696,6 +1704,8 @@ class Ezekiel extends Book
                     16 => 1,
                     17 => 2,
                     18 => 2,
+                    31 => 2,
+                    32 => 2,
                 ],
             ],
             33 => [
@@ -1977,7 +1987,7 @@ class Ezekiel extends Book
                 'verses' => [
                     1 => 'The hand of the was on me, and he brought me out by his Spirit and set me down in the middle of the valley; it was full of bones.',
                     2 => 'He led me all around them. There were a great many of them on the surface of the valley, and they were very dry.',
-                    3 => 'Then he said to me, "Son of man, can these bones live? "',
+                    3 => 'Then he said to me, "Son of man, can these bones live? " I replied, "Lord God, only you know."',
                     4 => 'He said to me, "Prophesy concerning these bones and say to them: Dry bones, hear the word of the !',
                     5 => 'This is what the Lord God says to these bones: I will cause breath to enter you, and you will live.',
                     6 => 'I will put tendons on you, make flesh grow on you, and cover you with skin. I will put breath in you so that you come to life. Then you will know that I am the Lord."',

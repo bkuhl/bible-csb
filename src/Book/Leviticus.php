@@ -591,7 +591,7 @@ class Leviticus extends Book
                 'verses' => [
                     1 => 'Aaron\'s sons Nadab and Abihu each took his own firepan, put fire in it, placed incense on it, and presented unauthorized fire before the Lord, which he had not commanded them to do.',
                     2 => 'Then fire came from the Lord and consumed them, and they died before the Lord.',
-                    3 => 'Moses said to Aaron, "This is what the Lord has spoken:',
+                    3 => 'Moses said to Aaron, "This is what the Lord has spoken: I will demonstrate my holiness to those who are near me, and I will reveal my glory before all the people." And Aaron remained silent.',
                     4 => 'Moses summoned Mishael and Elzaphan, sons of Aaron\'s uncle Uzziel, and said to them, "Come here and carry your relatives away from the front of the sanctuary to a place outside the camp."',
                     5 => 'So they came forward and carried them in their tunics outside the camp, as Moses had said.',
                     6 => 'Then Moses said to Aaron and his sons Eleazar and Ithamar, "Do not let your hair hang loose and do not tear your clothes, or else you will die, and the Lord will become angry with the whole community. However, your brothers, the whole house of Israel, may weep over the fire that the Lord caused.',

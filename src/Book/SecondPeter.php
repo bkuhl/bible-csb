@@ -45,6 +45,7 @@ class SecondPeter extends Book
                     3 => 'The Trustworthy Prophetic Word',
                 ],
                 'verses' => [
+                    1 => 'Simeon Peter, a servant and an apostle of Jesus Christ: To those who have received a faith equal to ours through the righteousness of our God and Savior Jesus Christ.',
                     2 => 'May grace and peace be multiplied to you through the knowledge of God and of Jesus our Lord.',
                     3 => 'His divine power has given us everything required for life and godliness through the knowledge of him who called us by his own glory and goodness.',
                     4 => 'By these he has given us very great and precious promises, so that through them you may share in the divine nature, escaping the corruption that is in the world because of evil desire.',
@@ -67,6 +68,7 @@ class SecondPeter extends Book
                     21 => 'because no prophecy ever came by the will of man; instead, men spoke from God as they were carried along by the Holy Spirit.',
                 ],
                 'versesToSections' => [
+                    1 => 1,
                     2 => 1,
                     3 => 2,
                     4 => 2,

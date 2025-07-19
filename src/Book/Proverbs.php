@@ -135,7 +135,7 @@ class Proverbs extends Book
                     1 => 'A Collection of Solomon\'s Proverbs',
                 ],
                 'verses' => [
-                    1 => 'Solomon\'s proverbs:',
+                    1 => 'Solomon\'s proverbs: A wise son brings joy to his father, but a foolish son, heartache to his mother.',
                 ],
                 'versesToSections' => [
                     1 => 1,

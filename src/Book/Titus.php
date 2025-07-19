@@ -47,7 +47,7 @@ class Titus extends Book
                     1 => 'Paul, a servant of God and an apostle of Jesus Christ, for the faith of God\'s elect and their knowledge of the truth that leads to godliness,',
                     2 => 'in the hope of eternal life that God, who cannot lie, promised before time began.',
                     3 => 'In his own time he has revealed his word in the preaching with which I was entrusted by the command of God our Savior:',
-                    4 => 'To Titus, my true son in our common faith.',
+                    4 => 'To Titus, my true son in our common faith. Grace and peace from God the Father and Christ Jesus our Savior.',
                     5 => 'The reason I left you in Crete was to set right what was left undone and, as I directed you, to appoint elders in every town.',
                     6 => 'An elder must be blameless, the husband of one wife, with faithful children who are not accused of wildness or rebellion.',
                     7 => 'As an overseer of God\'s household, he must be blameless, not arrogant, not hot-tempered, not an excessive drinker, not a bully, not greedy for money,',

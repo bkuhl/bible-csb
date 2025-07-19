@@ -44,7 +44,7 @@ class Hosea extends Book
                 ],
                 'verses' => [
                     1 => 'The word of the that came to Hosea son of Beeri during the reigns of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and of Jeroboam son of Jehoash, king of Israel.',
-                    2 => 'When the first spoke to Hosea, he said this to him:',
+                    2 => 'When the first spoke to Hosea, he said this to him: Go and marry a woman of promiscuity, and have children of promiscuity, for the land is committing blatant acts of promiscuity by abandoning the Lord.',
                     3 => 'So he went and married Gomer daughter of Diblaim, and she conceived and bore him a son.',
                     4 => 'Then the said to him:',
                     6 => 'She conceived again and gave birth to a daughter, and the Lord said to him:',
@@ -67,8 +67,10 @@ class Hosea extends Book
                     2 => 'Israel\'s Adultery Forgiven',
                 ],
                 'verses' => [
+                    13 => 'This is the Lord\'s declaration.',
                 ],
                 'versesToSections' => [
+                    13 => 1,
                 ],
             ],
             3 => [
@@ -162,8 +164,10 @@ class Hosea extends Book
                     1 => 'The \'s Love for Israel',
                 ],
                 'verses' => [
+                    11 => 'This is the Lord\'s declaration.',
                 ],
                 'versesToSections' => [
+                    11 => 1,
                 ],
             ],
             12 => [

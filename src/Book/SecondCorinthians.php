@@ -295,7 +295,7 @@ class SecondCorinthians extends Book
                 ],
                 'verses' => [
                     1 => 'Working together with him, we also appeal to you, "Don\'t receive the grace of God in vain."',
-                    2 => 'For he says:',
+                    2 => 'For he says: See, now is the acceptable time; now is the day of salvation!',
                     3 => 'We are not giving anyone an occasion for offense, so that the ministry will not be blamed.',
                     4 => 'Instead, as God\'s ministers, we commend ourselves in everything: by great endurance, by afflictions, by hardships, by difficulties,',
                     5 => 'by beatings, by imprisonments, by riots, by labors, by sleepless nights, by times of hunger,',
@@ -442,7 +442,7 @@ class SecondCorinthians extends Book
                     6 => 'The point is this: The person who sows sparingly will also reap sparingly, and the person who sows generously will also reap generously.',
                     7 => 'Each person should do as he has decided in his heart — not reluctantly or out of compulsion, since God loves a cheerful giver.',
                     8 => 'And God is able to make every grace overflow to you, so that in every way, always having everything you need, you may excel in every good work.',
-                    9 => 'As it is written:',
+                    9 => 'As it is written: ',
                     10 => 'Now the one who provides seed for the sower and bread for food will also provide and multiply your seed and increase the harvest of your righteousness.',
                     11 => 'You will be enriched in every way for all generosity, which produces thanksgiving to God through us.',
                     12 => 'For the ministry of this service is not only supplying the needs of the saints but is also overflowing in many expressions of thanks to God.',

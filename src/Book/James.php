@@ -45,6 +45,7 @@ class James extends Book
                     3 => 'Hearing and Doing the Word',
                 ],
                 'verses' => [
+                    1 => 'James, a servant of God and of the Lord Jesus Christ: To the twelve tribes dispersed abroad. Greetings.',
                     2 => 'Consider it a great joy, my brothers and sisters, whenever you experience various trials,',
                     3 => 'because you know that the testing of your faith produces endurance.',
                     4 => 'And let endurance have its full effect, so that you may be mature and complete, lacking nothing.',
@@ -73,6 +74,7 @@ class James extends Book
                     27 => 'Pure and undefiled religion before God the Father is this: to look after orphans and widows in their distress and to keep oneself unstained from the world.',
                 ],
                 'versesToSections' => [
+                    1 => 1,
                     2 => 2,
                     3 => 2,
                     4 => 2,
@@ -220,7 +222,7 @@ class James extends Book
                     3 => 'You ask and don\'t receive because you ask with wrong motives, so that you may spend it on your pleasures.',
                     4 => 'You adulterous people! Don\'t you know that friendship with the world is hostility toward God? So whoever wants to be the friend of the world becomes the enemy of God.',
                     5 => 'Or do you think it\'s without reason that the Scripture says: The spirit he made to dwell in us envies intensely?',
-                    6 => 'But he gives greater grace. Therefore he says:',
+                    6 => 'But he gives greater grace. Therefore he says: ',
                     7 => 'Therefore, submit to God. Resist the devil, and he will flee from you.',
                     8 => 'Draw near to God, and he will draw near to you. Cleanse your hands, sinners, and purify your hearts, you double-minded.',
                     9 => 'Be miserable and mourn and weep. Let your laughter be turned to mourning and your joy to gloom.',

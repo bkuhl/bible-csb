@@ -47,7 +47,7 @@ class FirstTimothy extends Book
                 ],
                 'verses' => [
                     1 => 'Paul, an apostle of Christ Jesus by the command of God our Savior and of Christ Jesus our hope:',
-                    2 => 'To Timothy, my true son in the faith.',
+                    2 => 'To Timothy, my true son in the faith. Grace, mercy, and peace from God the Father and Christ Jesus our Lord.',
                     3 => 'As I urged you when I went to Macedonia, remain in Ephesus so that you may instruct certain people not to teach false doctrine',
                     4 => 'or to pay attention to myths and endless genealogies. These promote empty speculations rather than God\'s plan, which operates by faith.',
                     5 => 'Now the goal of our instruction is love that comes from a pure heart, a good conscience, and a sincere faith.',
@@ -151,7 +151,7 @@ class FirstTimothy extends Book
                     13 => 'For those who have served well as deacons acquire a good standing for themselves and great boldness in the faith that is in Christ Jesus.',
                     14 => 'I write these things to you, hoping to come to you soon.',
                     15 => 'But if I should be delayed, I have written so that you will know how people ought to conduct themselves in God\'s household, which is the church of the living God, the pillar and foundation of the truth.',
-                    16 => 'And most certainly, the mystery of godliness is great:',
+                    16 => 'And most certainly, the mystery of godliness is great: He was manifested in the flesh, vindicated in the Spirit, seen by angels, preached among the nations, believed on in the world, taken up in glory.',
                 ],
                 'versesToSections' => [
                     1 => 1,
@@ -304,7 +304,7 @@ class FirstTimothy extends Book
                     18 => 'Instruct them to do what is good, to be rich in good works, to be generous and willing to share,',
                     19 => 'storing up treasure for themselves as a good foundation for the coming age, so that they may take hold of what is truly life.',
                     20 => 'Timothy, guard what has been entrusted to you, avoiding irreverent and empty speech and contradictions from what is falsely called knowledge.',
-                    21 => 'By professing it, some people have departed from the faith.',
+                    21 => 'By professing it, some people have departed from the faith. Grace be with you all.',
                 ],
                 'versesToSections' => [
                     1 => 1,
