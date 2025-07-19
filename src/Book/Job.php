@@ -50,7 +50,7 @@ class Job extends Book
                     4 => 'His sons used to take turns having banquets at their homes. They would send an invitation to their three sisters to eat and drink with them.',
                     5 => 'Whenever a round of banqueting was over, Job would send for his children and purify them, rising early in the morning to offer burnt offerings for all of them. For Job thought, "Perhaps my children have sinned, having cursed God in their hearts." This was Job\'s regular practice.',
                     6 => 'One day the sons of God came to present themselves before the Lord, and Satan also came with them.',
-                    7 => 'The asked Satan, "Where have you come from? "',
+                    7 => 'The asked Satan, "Where have you come from? " "From roaming through the earth," Satan answered him, "and walking around on it."',
                     8 => 'Then the said to Satan, "Have you considered my servant Job? No one else on earth is like him, a man of perfect integrity, who fears God and turns away from evil."',
                     9 => 'Satan answered the Lord, "Does Job fear God for nothing?',
                     10 => 'Haven\'t you placed a hedge around him, his household, and everything he owns? You have blessed the work of his hands, and his possessions have increased in the land.',
@@ -99,7 +99,7 @@ class Job extends Book
                 ],
                 'verses' => [
                     1 => 'One day the sons of God came again to present themselves before the Lord, and Satan also came with them to present himself before the Lord.',
-                    2 => 'The asked Satan, "Where have you come from? "',
+                    2 => 'The asked Satan, "Where have you come from? " "From roaming through the earth," Satan answered him, "and walking around on it."',
                     3 => 'Then the said to Satan, "Have you considered my servant Job? No one else on earth is like him, a man of perfect integrity, who fears God and turns away from evil. He still retains his integrity, even though you incited me against him, to destroy him for no good reason."',
                     4 => '"Skin for skin! " Satan answered the Lord. "A man will give up everything he owns in exchange for his life.',
                     5 => 'But stretch out your hand and strike his flesh and bones, and he will surely curse you to your face."',
@@ -415,8 +415,10 @@ class Job extends Book
                 'sections' => [
                 ],
                 'verses' => [
+                    40 => 'The words of Job are concluded.',
                 ],
                 'versesToSections' => [
+                    40 => 0,
                 ],
             ],
             32 => [

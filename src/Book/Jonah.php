@@ -132,7 +132,7 @@ class Jonah extends Book
                     6 => 'Then the God appointed a plant, and it grew over Jonah to provide shade for his head to rescue him from his trouble. Jonah was greatly pleased with the plant.',
                     7 => 'When dawn came the next day, God appointed a worm that attacked the plant, and it withered.',
                     8 => 'As the sun was rising, God appointed a scorching east wind. The sun beat down on Jonah\'s head so much that he almost fainted, and he wanted to die. He said, "It\'s better for me to die than to live."',
-                    9 => 'Then God asked Jonah, "Is it right for you to be angry about the plant? "',
+                    9 => 'Then God asked Jonah, "Is it right for you to be angry about the plant? " "Yes, it\'s right! " he replied. "I\'m angry enough to die! "',
                     10 => 'And the said, "You cared about the plant, which you did not labor over and did not grow. It appeared in a night and perished in a night.',
                     11 => 'So may I not care about the great city of Nineveh, which has more than a hundred twenty thousand people who cannot distinguish between their right and their left, as well as many animals? "',
                 ],

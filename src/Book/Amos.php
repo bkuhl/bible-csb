@@ -70,11 +70,15 @@ class Amos extends Book
                     1 => 'The says:',
                     4 => 'The says:',
                     6 => 'The says:',
+                    11 => 'This is the Lord\'s declaration.',
+                    16 => 'this is the Lord\'s declaration.',
                 ],
                 'versesToSections' => [
                     1 => 0,
                     4 => 1,
                     6 => 2,
+                    11 => 2,
+                    16 => 2,
                 ],
             ],
             3 => [
@@ -85,11 +89,13 @@ class Amos extends Book
                     1 => 'Listen to this message that the Lord has spoken against you, Israelites, against the entire clan that I brought from the land of Egypt:',
                     11 => 'Therefore, the Lord God says:',
                     12 => 'The says:',
+                    15 => 'This is the Lord\'s declaration.',
                 ],
                 'versesToSections' => [
                     1 => 1,
                     11 => 1,
                     12 => 1,
+                    15 => 1,
                 ],
             ],
             4 => [
@@ -99,9 +105,11 @@ class Amos extends Book
                 ],
                 'verses' => [
                     2 => 'The Lord God has sworn by his holiness:',
+                    5 => 'This is the declaration of the Lord God.',
                 ],
                 'versesToSections' => [
                     2 => 1,
+                    5 => 1,
                 ],
             ],
             5 => [
@@ -112,7 +120,7 @@ class Amos extends Book
                 ],
                 'verses' => [
                     1 => 'Listen to this message that I am singing for you, a lament, house of Israel:',
-                    3 => 'For the Lord God says:',
+                    3 => 'For the Lord God says: The city that marches out a thousand strong will have only a hundred left, and the one that marches out a hundred strong will have only ten left in the house of Israel.',
                     4 => 'For the says to the house of Israel:',
                     16 => 'Therefore the Lord, the God of Armies, the Lord, says:',
                     25 => '"House of Israel, was it sacrifices and grain offerings that you presented to me during the forty years in the wilderness?',
@@ -135,10 +143,10 @@ class Amos extends Book
                     2 => 'Israel\'s Pride Judged',
                 ],
                 'verses' => [
-                    8 => 'The Lord God has sworn by himself — this is the declaration of the , the God of Armies:',
+                    8 => 'The Lord God has sworn by himself — this is the declaration of the , the God of Armies: I loathe Jacob\'s pride and hate his citadels, so I will hand over the city and everything in it.',
                     9 => 'And if there are ten men left in one house, they will die.',
-                    10 => 'A close relative and burner will remove his corpse from the house. He will call to someone in the inner recesses of the house, "Any more with you? "',
-                    11 => 'For the commands:',
+                    10 => 'A close relative and burner will remove his corpse from the house. He will call to someone in the inner recesses of the house, "Any more with you? " That person will reply, "None." Then he will say, "Silence, because the Lord\'s name must not be invoked."',
+                    11 => 'For the commands: The large house will be smashed to pieces, and the small house to rubble.',
                 ],
                 'versesToSections' => [
                     8 => 2,
@@ -160,7 +168,7 @@ class Amos extends Book
                     3 => 'The relented concerning this. "It will not happen," he said.',
                     4 => 'The Lord God showed me this: The Lord God was calling for a judgment by fire. It consumed the great deep and devoured the land.',
                     5 => 'Then I said, "Lord God, please stop! How will Jacob survive since he is so small? "',
-                    6 => 'The relented concerning this. "This will not happen either," said the Lord God.',
+                    6 => 'The relented concerning this. "This will not happen either," said the Lord God. I replied, "A plumb line." Then the Lord said, "I am setting a plumb line among my people Israel; I will no longer spare them:',
                     7 => 'He showed me this: The Lord was standing there by a vertical wall with a plumb line in his hand.',
                     8 => 'The asked me, "What do you see, Amos? "',
                     10 => 'Amaziah the priest of Bethel sent word to King Jeroboam of Israel, saying, "Amos has conspired against you right here in the house of Israel. The land cannot endure all his words,',
@@ -169,8 +177,8 @@ class Amos extends Book
                     13 => 'but don\'t ever prophesy at Bethel again, for it is the king\'s sanctuary and a royal temple."',
                     14 => 'So Amos answered Amaziah, "I was not a prophet or the son of a prophet; rather, I was a herdsman, and I took care of sycamore figs.',
                     15 => 'But the took me from following the flock and said to me, \'Go, prophesy to my people Israel.\' "',
-                    16 => 'Now hear the word of the Lord. You say:',
-                    17 => 'Therefore, this is what the Lord says:',
+                    16 => 'Now hear the word of the Lord. You say: Do not prophesy against Israel; do not preach against the house of Isaac.',
+                    17 => 'Therefore, this is what the Lord says: Your wife will be a prostitute in the city, your sons and daughters will fall by the sword, and your land will be divided up with a measuring line. You yourself will die on pagan soil, and Israel will certainly go into exile from its homeland.',
                 ],
                 'versesToSections' => [
                     1 => 1,

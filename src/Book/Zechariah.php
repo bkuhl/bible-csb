@@ -50,10 +50,10 @@ class Zechariah extends Book
                     3 => 'So tell the people, \'This is what the Lord of Armies says: Return to me — this is the declaration of the Lord of Armies — and I will return to you, says the Lord of Armies.',
                     4 => 'Do not be like your ancestors; the earlier prophets proclaimed to them: This is what the Lord of Armies says: Turn from your evil ways and your evil deeds. But they did not listen or pay attention to me — this is the Lord\'s declaration.',
                     5 => 'Where are your ancestors now? And do the prophets live forever?',
-                    6 => 'But didn\'t my words and my statutes that I commanded my servants the prophets overtake your ancestors? \' "',
+                    6 => 'But didn\'t my words and my statutes that I commanded my servants the prophets overtake your ancestors? \' " So the people repented and said, "As the Lord of Armies decided to deal with us for our ways and our deeds, so he has dealt with us."',
                     7 => 'On the twenty-fourth day of the eleventh month, which is the month of Shebat, in the second year of Darius, the word of the Lord came to the prophet Zechariah son of Berechiah, son of Iddo:',
                     8 => 'I looked out in the night and saw a man riding on a chestnut horse. He was standing among the myrtle trees in the valley. Behind him were chestnut, brown, and white horses.',
-                    9 => 'I asked, "What are these, my lord? "',
+                    9 => 'I asked, "What are these, my lord? " The angel who was talking to me replied, "I will show you what they are."',
                     10 => 'Then the man standing among the myrtle trees explained, "They are the ones the has sent to patrol the earth."',
                     11 => 'They reported to the angel of the Lord standing among the myrtle trees, "We have patrolled the earth, and right now the whole earth is calm and quiet."',
                     12 => 'Then the angel of the Lord responded, "How long, of Armies, will you withhold mercy from Jerusalem and the cities of Judah that you have been angry with these seventy years? "',
@@ -63,9 +63,9 @@ class Zechariah extends Book
                     16 => 'Therefore, this is what the Lord says: In mercy, I have returned to Jerusalem; my house will be rebuilt within it — this is the declaration of the Lord of Armies — and a measuring line will be stretched out over Jerusalem.',
                     17 => '"Proclaim further: This is what the Lord of Armies says: My cities will again overflow with prosperity; the Lord will once more comfort Zion and again choose Jerusalem."',
                     18 => 'Then I looked up and saw four horns.',
-                    19 => 'So I asked the angel who was speaking with me, "What are these? "',
+                    19 => 'So I asked the angel who was speaking with me, "What are these? " And he said to me, "These are the horns that scattered Judah, Israel, and Jerusalem."',
                     20 => 'Then the Lord showed me four craftsmen.',
-                    21 => 'I asked, "What are they coming to do? "',
+                    21 => 'I asked, "What are they coming to do? " He replied, "These are the horns that scattered Judah so no one could raise his head. These craftsmen have come to terrify them, to cut off the horns of the nations that raised a horn against the land of Judah to scatter it."',
                 ],
                 'versesToSections' => [
                     1 => 1,
@@ -97,7 +97,7 @@ class Zechariah extends Book
                 ],
                 'verses' => [
                     1 => 'I looked up and saw a man with a measuring line in his hand.',
-                    2 => 'I asked, "Where are you going? "',
+                    2 => 'I asked, "Where are you going? " He answered me, "To measure Jerusalem to determine its width and length."',
                     3 => 'Then the angel who was speaking with me went out, and another angel went out to meet him.',
                     4 => 'He said to him, "Run and tell this young man: Jerusalem will be inhabited without walls because of the number of people and animals in it."',
                     5 => 'The declaration of the Lord: "I myself will be a wall of fire around it, and I will be the glory within it."',
@@ -164,7 +164,7 @@ class Zechariah extends Book
                     2 => 'I replied, "I see a solid gold lampstand with a bowl at the top. The lampstand also has seven lamps at the top with seven spouts for each of the lamps.',
                     3 => 'There are also two olive trees beside it, one on the right of the bowl and the other on its left."',
                     4 => 'Then I asked the angel who was speaking with me, "What are these, my lord? "',
-                    5 => '"Don\'t you know what they are? " replied the angel who was speaking with me.',
+                    5 => '"Don\'t you know what they are? " replied the angel who was speaking with me. I said, "No, my lord."',
                     6 => 'So he answered me, "This is the word of the Lord to Zerubbabel: \'Not by strength or by might, but by my Spirit,\' says the Lord of Armies.',
                     7 => '\'What are you, great mountain? Before Zerubbabel you will become a plain. And he will bring out the capstone accompanied by shouts of: Grace, grace to it! \' "',
                     8 => 'Then the word of the Lord came to me:',
@@ -172,7 +172,7 @@ class Zechariah extends Book
                     10 => 'For who despises the day of small things? These seven eyes of the Lord, which scan throughout the whole earth, will rejoice when they see the ceremonial stone in Zerubbabel\'s hand."',
                     11 => 'I asked him, "What are the two olive trees on the right and left of the lampstand? "',
                     12 => 'And I questioned him further, "What are the two streams of the olive trees, from which the golden oil is pouring through the two golden conduits? "',
-                    13 => 'Then he inquired of me, "Don\'t you know what these are? "',
+                    13 => 'Then he inquired of me, "Don\'t you know what these are? " "No, my lord," I replied.',
                     14 => '"These are the two anointed ones," he said, "who stand by the Lord of the whole earth."',
                 ],
                 'versesToSections' => [
@@ -199,7 +199,7 @@ class Zechariah extends Book
                 ],
                 'verses' => [
                     1 => 'I looked up again and saw a flying scroll.',
-                    2 => '"What do you see? " he asked me.',
+                    2 => '"What do you see? " he asked me. "I see a flying scroll," I replied, "thirty feet long and fifteen feet wide."',
                     3 => 'Then he said to me, "This is the curse that is going out over the whole land, for everyone who is a thief, contrary to what is written on one side, has gone unpunished, and everyone who swears falsely, contrary to what is written on the other side, has gone unpunished.',
                     4 => 'I will send it out," — this is the declaration of the Lord of Armies — "and it will enter the house of the thief and the house of the one who swears falsely by my name. It will stay inside his house and destroy it along with its timbers and stones."',
                     5 => 'Then the angel who was speaking with me came forward and told me, "Look up and see what this is that is approaching."',
@@ -373,8 +373,10 @@ class Zechariah extends Book
                     1 => 'The Restores His People',
                 ],
                 'verses' => [
+                    12 => 'this is the Lord\'s declaration.',
                 ],
                 'versesToSections' => [
+                    12 => 1,
                 ],
             ],
             11 => [
@@ -418,7 +420,7 @@ class Zechariah extends Book
                     2 => 'Mourning for the Pierced One',
                 ],
                 'verses' => [
-                    1 => 'A pronouncement:',
+                    1 => 'A pronouncement: The word of the Lord concerning Israel. A declaration of the Lord, who stretched out the heavens, laid the foundation of the earth, and formed the spirit of man within him.',
                     2 => '"Look, I will make Jerusalem a cup that causes staggering for the peoples who surround the city. The siege against Jerusalem will also involve Judah.',
                     3 => 'On that day I will make Jerusalem a heavy stone for all the peoples; all who try to lift it will injure themselves severely when all the nations of the earth gather against her.',
                     4 => 'On that day" — this is the Lord\'s declaration — "I will strike every horse with panic and its rider with madness. I will keep a watchful eye on the house of Judah but strike all the horses of the nations with blindness.',

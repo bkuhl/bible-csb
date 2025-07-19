@@ -275,7 +275,7 @@ class Esther extends Book
                 'verses' => [
                     1 => 'That night sleep escaped the king, so he ordered the book recording daily events to be brought and read to the king.',
                     2 => 'They found the written report of how Mordecai had informed on Bigthana and Teresh, two of the king\'s eunuchs who guarded the entrance, when they planned to assassinate King Ahasuerus.',
-                    3 => 'The king inquired, "What honor and special recognition have been given to Mordecai for this act? "',
+                    3 => 'The king inquired, "What honor and special recognition have been given to Mordecai for this act? " The king\'s personal attendants replied, "Nothing has been done for him."',
                     4 => 'The king asked, "Who is in the court? " Now Haman was just entering the outer court of the palace to ask the king to hang Mordecai on the gallows he had prepared for him.',
                     5 => '"Have him enter," the king ordered.',
                     6 => 'Haman thought to himself, "Who is it the king would want to honor more than me? "',
@@ -318,7 +318,7 @@ class Esther extends Book
                     6 => 'Haman stood terrified before the king and queen.',
                     7 => 'The king arose in anger and went from where they were drinking wine to the palace garden. Haman remained to beg Queen Esther for his life because he realized the king was planning something terrible for him.',
                     8 => 'Just as the king returned from the palace garden to the banquet hall, Haman was falling on the couch where Esther was reclining. The king exclaimed, "Would he actually violate the queen while I am in the house? " As soon as the statement left the king\'s mouth, they covered Haman\'s face.',
-                    9 => 'Harbona, one of the king\'s eunuchs, said, "There is a gallows seventy-five feet tall at Haman\'s house that he made for Mordecai, who gave the report that saved the king."',
+                    9 => 'Harbona, one of the king\'s eunuchs, said, "There is a gallows seventy-five feet tall at Haman\'s house that he made for Mordecai, who gave the report that saved the king." The king said, "Hang him on it."',
                     10 => 'They hanged Haman on the gallows he had prepared for Mordecai. Then the king\'s anger subsided.',
                 ],
                 'versesToSections' => [
