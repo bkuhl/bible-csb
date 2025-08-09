@@ -6,6 +6,7 @@ namespace BKuhl\BibleCSB;
 
 use BKuhl\BibleCSB\Exception\ChapterNotFoundException;
 use BKuhl\ScriptureRanges\Interfaces\BookInterface as ScriptureRangesBookInterface;
+use BKuhl\ScriptureRanges\ScriptureRange;
 
 abstract class Book implements BookInterface, ScriptureRangesBookInterface
 {
