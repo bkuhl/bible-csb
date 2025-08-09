@@ -32,6 +32,15 @@ abstract class Book implements BookInterface
         return count($this->getChapterData());
     }
 
+    public function chapterVerseCount(int $chapter): int
+    {
+        $chapterData = $this->getChapterData();
+        if (!isset($chapterData[$chapter])) {
+            return 0;
+        }
+        return count($chapterData[$chapter]['verses']);
+    }
+
     public function chapter(int $number): Chapter
     {
         $chapters = $this->chapters();

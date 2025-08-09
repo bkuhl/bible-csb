@@ -11,7 +11,8 @@
     },
     "autoload": {
         "psr-4": {
-            "BKuhl\\BibleCSB\\": "src/"
+            "BKuhl\\BibleCSB\\": "src/",
+            "BKuhl\\ScriptureRanges\\": "src/ScriptureRanges/"
         },
         "exclude-from-classmap": ["tests/"]
     },
