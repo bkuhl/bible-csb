@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace BKuhl\BibleCSB;
 
-use BKuhl\ScriptureRanges\VerseInterface;
-use BKuhl\ScriptureRanges\BookInterface;
+use BKuhl\ScriptureRanges\Interfaces\VerseInterface;
+use BKuhl\ScriptureRanges\Interfaces\BookInterface;
 
 class Verse implements VerseInterface
 {

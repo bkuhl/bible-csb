@@ -66,4 +66,20 @@ class VerseTest extends TestCase
         
         $this->assertEquals('Genesis 1:1', $verse->bookReference());
     }
+
+    public function testChapterNumber(): void
+    {
+        $this->chapter->method('number')->willReturn(5);
+        $verse = new Verse('Test verse text', 1, $this->chapter);
+        
+        $this->assertEquals(5, $verse->chapterNumber());
+    }
+
+    public function testBook(): void
+    {
+        $this->chapter->method('book')->willReturn($this->book);
+        $verse = new Verse('Test verse text', 1, $this->chapter);
+        
+        $this->assertSame($this->book, $verse->book());
+    }
 } 
