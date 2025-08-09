@@ -5,8 +5,10 @@ declare(strict_types=1);
 namespace BKuhl\BibleCSB;
 
 use BKuhl\BibleCSB\Exception\ChapterNotFoundException;
+use BKuhl\ScriptureRanges\Interfaces\BookInterface as ScriptureRangesBookInterface;
+use BKuhl\ScriptureRanges\ScriptureRange;
 
-abstract class Book implements BookInterface
+abstract class Book implements BookInterface, ScriptureRangesBookInterface
 {
     private ?array $chapterCache = null;
 
@@ -30,6 +32,15 @@ abstract class Book implements BookInterface
     public function chapterCount(): int
     {
         return count($this->getChapterData());
+    }
+
+    public function chapterVerseCount(int $chapter): int
+    {
+        $chapterData = $this->getChapterData();
+        if (!isset($chapterData[$chapter])) {
+            throw new ChapterNotFoundException($chapter, $this);
+        }
+        return count($chapterData[$chapter]['verses']);
     }
 
     public function chapter(int $number): Chapter

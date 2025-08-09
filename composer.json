@@ -4,7 +4,8 @@
     "description": "A PHP library for interacting with the Christian Standard Bible (CSB). Users must obtain permission for CSB text usage from Holman Bible Publishers.",
     "type": "library",
     "require": {
-        "php": "^8.3"
+        "php": "^8.3",
+        "bkuhl/scripture-ranges": "^1.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^12.0"

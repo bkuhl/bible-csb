@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace BKuhl\BibleCSB;
 
-class Verse
+use BKuhl\ScriptureRanges\Interfaces\VerseInterface;
+use BKuhl\ScriptureRanges\Interfaces\BookInterface;
+
+class Verse implements VerseInterface
 {
     public function __construct(
         private readonly string $text,
@@ -35,5 +38,15 @@ class Verse
     public function bookReference(): string
     {
         return $this->chapter->book()->name() . ' ' . $this->chapterReference();
+    }
+
+    public function chapterNumber(): int
+    {
+        return $this->chapter->number();
+    }
+
+    public function book(): BookInterface
+    {
+        return $this->chapter->book();
     }
 }

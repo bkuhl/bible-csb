@@ -10,4 +10,4 @@ interface BookInterface
     public function position(): int;
     public function testament(): Testament;
     public function abbreviation(): string;
-} 
+}
