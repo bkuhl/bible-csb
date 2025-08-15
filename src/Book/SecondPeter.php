@@ -117,7 +117,7 @@ class SecondPeter extends Book
                     19 => 'They promise them freedom, but they themselves are slaves of corruption, since people are enslaved to whatever defeats them.',
                     20 => 'For if, having escaped the world\'s impurity through the knowledge of the Lord and Savior Jesus Christ, they are again entangled in these things and defeated, the last state is worse for them than the first.',
                     21 => 'For it would have been better for them not to have known the way of righteousness than, after knowing it, to turn back from the holy command delivered to them.',
-                    22 => 'It has happened to them according to the true proverb: and, "A washed sow returns to wallowing in the mud."',
+                    22 => 'It has happened to them according to the true proverb: A dog returns to its own vomit, and, "A washed sow returns to wallowing in the mud."',
                 ],
                 'versesToSections' => [
                     1 => 1,
