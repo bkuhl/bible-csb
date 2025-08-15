@@ -4,10 +4,9 @@ declare(strict_types=1);
 
 namespace BKuhl\BibleCSB;
 
-use BKuhl\ScriptureRanges\Interfaces\VerseInterface;
-use BKuhl\ScriptureRanges\Interfaces\BookInterface;
+use BKuhl\BibleCSB\BookInterface;
 
-class Verse implements VerseInterface
+class Verse
 {
     public function __construct(
         private readonly string $text,
@@ -16,6 +15,11 @@ class Verse implements VerseInterface
     ) {}
 
     public function text(): string
+    {
+        return strip_tags($this->text);
+    }
+
+    public function formattedText(): string
     {
         return $this->text;
     }

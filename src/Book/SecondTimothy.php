@@ -110,7 +110,7 @@ class SecondTimothy extends Book
                     16 => 'Avoid irreverent and empty speech, since those who engage in it will produce even more godlessness,',
                     17 => 'and their teaching will spread like gangrene. Hymenaeus and Philetus are among them.',
                     18 => 'They have departed from the truth, saying that the resurrection has already taken place, and are ruining the faith of some.',
-                    19 => 'Nevertheless, God\'s solid foundation stands firm, bearing this inscription: and let everyone who calls on the name of the Lord turn away from wickedness.',
+                    19 => 'Nevertheless, God\'s solid foundation stands firm, bearing this inscription: The Lord knows those who are his, and let everyone who calls on the name of the Lord turn away from wickedness.',
                     20 => 'Now in a large house there are not only gold and silver vessels, but also those of wood and clay; some for honorable use and some for dishonorable.',
                     21 => 'So if anyone purifies himself from anything dishonorable, he will be a special instrument, set apart, useful to the Master, prepared for every good work.',
                     22 => 'Flee from youthful passions, and pursue righteousness, faith, love, and peace, along with those who call on the Lord from a pure heart.',
