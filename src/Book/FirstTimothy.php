@@ -238,7 +238,7 @@ class FirstTimothy extends Book
                     15 => 'For some have already turned away to follow Satan.',
                     16 => 'If any believing woman has widows in her family, let her help them. Let the church not be burdened, so that it can help widows in genuine need.',
                     17 => 'The elders who are good leaders are to be considered worthy of double honor, especially those who work hard at preaching and teaching.',
-                    18 => 'For the Scripture says: Do not muzzle an ox while it is treading out the grain, and,"The worker is worthy of his wages."',
+                    18 => 'For the Scripture says: <otquote>Do not muzzle an ox while it is treading out the grain,</otquote> and,"The worker is worthy of his wages."',
                     19 => 'Don\'t accept an accusation against an elder unless it is supported by two or three witnesses.',
                     20 => 'Publicly rebuke those who sin, so that the rest will be afraid.',
                     21 => 'I solemnly charge you before God and Christ Jesus and the elect angels to observe these things without prejudice, doing nothing out of favoritism.',
