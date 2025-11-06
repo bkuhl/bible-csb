@@ -60,4 +60,53 @@ class Chapter
     {
         return isset($this->verses[$number]);
     }
+
+    /**
+     * Serialize the chapter to store only book ID and chapter number
+     *
+     * @return array{bookId: int, chapterNumber: int}
+     */
+    public function __serialize(): array
+    {
+        return [
+            'bookId' => $this->book->position(),
+            'chapterNumber' => $this->number,
+        ];
+    }
+
+    /**
+     * Unserialize the chapter from stored book ID and chapter number
+     *
+     * @param array{bookId: int, chapterNumber: int} $data
+     */
+    public function __unserialize(array $data): void
+    {
+        $bookFactory = new BookFactory();
+        $bookEnum = BookEnum::from($data['bookId']);
+        $book = $bookFactory->make($bookEnum);
+
+        // BookFactory always returns Book instances (which implement BookInterface)
+        if (!$book instanceof Book) {
+            throw new \RuntimeException('Expected Book instance from BookFactory');
+        }
+
+        // Get the chapter from the book to ensure we have the correct instance with verses
+        $reconstructedChapter = $book->chapter($data['chapterNumber']);
+
+        // Use reflection to set private readonly properties
+        $reflection = new \ReflectionClass($this);
+        
+        $numberProperty = $reflection->getProperty('number');
+        $numberProperty->setAccessible(true);
+        $numberProperty->setValue($this, $data['chapterNumber']);
+
+        $bookProperty = $reflection->getProperty('book');
+        $bookProperty->setAccessible(true);
+        $bookProperty->setValue($this, $book);
+
+        // Copy verses from the reconstructed chapter
+        $versesProperty = $reflection->getProperty('verses');
+        $versesProperty->setAccessible(true);
+        $versesProperty->setValue($this, $reconstructedChapter->verses());
+    }
 } 
