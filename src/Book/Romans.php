@@ -750,7 +750,8 @@ class Romans extends Book
                     31 => 'so they too have now disobeyed, resulting in mercy to you, so that they also may now receive mercy.',
                     32 => 'For God has imprisoned all in disobedience so that he may have mercy on all.',
                     33 => 'Oh, the depth of the riches and the wisdom and the knowledge of God! How unsearchable his judgments and untraceable his ways!',
-                    34 => '<otquote>For who has known the mind of the Lord?</otquote> <otquote>Or who has been his counselor?</otquote> 35 <otquote>And who has ever given to God,</otquote> <otquote>that he should be repaid?</otquote>',
+                    34 => '<otquote>For who has known the mind of the Lord?</otquote>',
+                    35 => '<otquote>And who has ever given to God,</otquote>',
                     36 => 'For from him and through him and to him are all things. To him be the glory forever. Amen.',
                 ],
                 'versesToSections' => [
@@ -788,6 +789,7 @@ class Romans extends Book
                     32 => 2,
                     33 => 3,
                     34 => 3,
+                    35 => 3,
                     36 => 3,
                 ],
             ],

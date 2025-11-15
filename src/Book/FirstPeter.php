@@ -45,7 +45,7 @@ class FirstPeter extends Book
                     3 => 'A Call to Holy Living',
                 ],
                 'verses' => [
-                    1 => 'To those chosen, living as exiles dispersed abroad in Pontus, Galatia, Cappadocia, Asia, and Bithynia, chosen',
+                    1 => 'Peter, an apostle of Jesus Christ: To those chosen, living as exiles dispersed abroad in Pontus, Galatia, Cappadocia, Asia, and Bithynia, chosen',
                     2 => 'according to the foreknowledge of God the Father, through the sanctifying work of the Spirit, to be obedient and to be sprinkled with the blood of Jesus Christ. May grace and peace be multiplied to you.',
                     3 => 'Blessed be the God and Father of our Lord Jesus Christ. Because of his great mercy he has given us new birth into a living hope through the resurrection of Jesus Christ from the dead',
                     4 => 'and into an inheritance that is imperishable, undefiled, and unfading, kept in heaven for you.',

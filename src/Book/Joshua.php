@@ -1226,7 +1226,7 @@ class Joshua extends Book
                     1 => 'Joshua assembled all the tribes of Israel at Shechem and summoned Israel\'s elders, leaders, judges, and officers, and they presented themselves before God.',
                     2 => 'Joshua said to all the people, "This is what the <span class="smallcaps">Lord</span>, the God of Israel, says: \'Long ago your ancestors, including Terah, the father of Abraham and Nahor, lived beyond the Euphrates River and worshiped other gods.',
                     3 => 'But I took your father Abraham from the region beyond the Euphrates River, led him throughout the land of Canaan, and multiplied his descendants. I gave him Isaac,',
-                    4 => '" \'Jacob and his sons, however, went down to Egypt.',
+                    4 => 'and to Isaac I gave Jacob and Esau. I gave the hill country of Seir to Esau as a possession. " \'Jacob and his sons, however, went down to Egypt.',
                     5 => 'I sent Moses and Aaron, and I defeated Egypt by what I did within it, and afterward I brought you out.',
                     6 => 'When I brought your ancestors out of Egypt and you reached the Red Sea, the Egyptians pursued your ancestors with chariots and horsemen as far as the sea.',
                     7 => 'Your ancestors cried out to the <span class="smallcaps">Lord</span>, so he put darkness between you and the Egyptians, and brought the sea over them, engulfing them. Your own eyes saw what I did to Egypt. After that, you lived in the wilderness a long time.',

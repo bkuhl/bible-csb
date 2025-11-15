@@ -1054,7 +1054,7 @@ class Isaiah extends Book
                     5 => 'For the Lord <span class="smallcaps">God</span> of Armies had a day of tumult, trampling, and confusion in the Valley of Vision — people shouting and crying to the mountains;',
                     6 => 'Elam took up a quiver with chariots and horsemen, and Kir uncovered the shield.',
                     7 => 'Your best valleys were full of chariots, and horsemen were positioned at the city gates.',
-                    8 => 'On that day you looked to the weapons in the House of the Forest.',
+                    8 => 'He removed the defenses of Judah. On that day you looked to the weapons in the House of the Forest.',
                     9 => 'You saw that there were many breaches in the walls of the city of David. You collected water from the lower pool.',
                     10 => 'You counted the houses of Jerusalem so that you could tear them down to fortify the wall.',
                     11 => 'You made a reservoir between the walls for the water of the ancient pool, but you did not look to the one who made it, or consider the one who created it long ago.',

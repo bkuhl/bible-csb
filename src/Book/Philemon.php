@@ -46,7 +46,7 @@ class Philemon extends Book
                     4 => 'Final Greetings',
                 ],
                 'verses' => [
-                    1 => 'To Philemon our dear friend and coworker,',
+                    1 => 'Paul, a prisoner of Christ Jesus, and Timothy our brother: To Philemon our dear friend and coworker,',
                     2 => 'to Apphia our sister, to Archippus our fellow soldier, and to the church that meets in your home.',
                     3 => 'Grace to you and peace from God our Father and the Lord Jesus Christ.',
                     4 => 'I always thank my God when I mention you in my prayers,',

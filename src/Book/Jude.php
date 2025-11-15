@@ -47,7 +47,7 @@ class Jude extends Book
                     5 => 'Exhortation and Benediction',
                 ],
                 'verses' => [
-                    1 => 'To those who are the called, loved by God the Father and kept for Jesus Christ.',
+                    1 => 'Jude, a servant of Jesus Christ and a brother of James: To those who are the called, loved by God the Father and kept for Jesus Christ.',
                     2 => 'May mercy, peace, and love be multiplied to you.',
                     3 => 'Dear friends, although I was eager to write you about the salvation we share, I found it necessary to write, appealing to you to contend for the faith that was delivered to the saints once for all.',
                     4 => 'For some people, who were designated for this judgment long ago, have come in by stealth; they are ungodly, turning the grace of our God into sensuality and denying Jesus Christ, our only Master and Lord.',

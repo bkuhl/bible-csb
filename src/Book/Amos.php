@@ -349,7 +349,7 @@ class Amos extends Book
                 ],
                 'verses' => [
                     1 => 'The Lord <span class="smallcaps">God</span> showed me this: a basket of summer fruit.',
-                    2 => 'The <span class="smallcaps">Lord</span> said to me, "The end has come for my people Israel; I will no longer spare them.',
+                    2 => 'He asked me, "What do you see, Amos? " I replied, "A basket of summer fruit." The <span class="smallcaps">Lord</span> said to me, "The end has come for my people Israel; I will no longer spare them.',
                     3 => 'In that day the temple songs will become wailing" — this is the Lord <span class="smallcaps">God</span>\'s declaration. "Many dead bodies, thrown everywhere! Silence! "',
                     4 => 'Hear this, you who trample on the needy and do away with the poor of the land,',
                     5 => 'asking, "When will the New Moon be over so we may sell grain, and the Sabbath, so we may market wheat? We can reduce the measure while increasing the price and cheat with dishonest scales.',

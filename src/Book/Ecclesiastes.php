@@ -105,7 +105,7 @@ class Ecclesiastes extends Book
                     11 => 'When I considered all that I had accomplished and what I had labored to achieve, I found everything to be futile and a pursuit of the wind. There was nothing to be gained under the sun.',
                     12 => 'Then I turned to consider wisdom, madness, and folly, for what will the king\'s successor be like? He will do what has already been done.',
                     13 => 'And I realized that there is an advantage to wisdom over folly, like the advantage of light over darkness.',
-                    14 => 'Yet I also knew that one fate comes to them both.',
+                    14 => 'The wise person has eyes in his head, but the fool walks in darkness. Yet I also knew that one fate comes to them both.',
                     15 => 'So I said to myself, "What happens to the fool will also happen to me. Why then have I been overly wise? " And I said to myself that this is also futile.',
                     16 => 'For, just like the fool, there is no lasting remembrance of the wise, since in the days to come both will be forgotten. How is it that the wise person dies just like the fool?',
                     17 => 'Therefore, I hated life because the work that was done under the sun was distressing to me. For everything is futile and a pursuit of the wind.',

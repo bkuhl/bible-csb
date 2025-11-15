@@ -44,7 +44,7 @@ class FirstThessalonians extends Book
                     2 => 'Thanksgiving',
                 ],
                 'verses' => [
-                    1 => 'Grace to you and peace.',
+                    1 => 'Paul, Silvanus, and Timothy: To the church of the Thessalonians in God the Father and the Lord Jesus Christ. Grace to you and peace.',
                     2 => 'We always thank God for all of you, making mention of you constantly in our prayers.',
                     3 => 'We recall, in the presence of our God and Father, your work produced by faith, your labor motivated by love, and your endurance inspired by hope in our Lord Jesus Christ.',
                     4 => 'For we know, brothers and sisters loved by God, that he has chosen you,',

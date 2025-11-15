@@ -105,7 +105,7 @@ class SecondPeter extends Book
                     7 => 'and if he rescued righteous Lot, distressed by the depraved behavior of the immoral',
                     8 => '(for as that righteous man lived among them day by day, his righteous soul was tormented by the lawless deeds he saw and heard ) —',
                     9 => 'then the Lord knows how to rescue the godly from trials and to keep the unrighteous under punishment for the day of judgment,',
-                    10 => 'Bold, arrogant people! They are not afraid to slander the glorious ones;',
+                    10 => 'especially those who follow the polluting desires of the flesh and despise authority. Bold, arrogant people! They are not afraid to slander the glorious ones;',
                     11 => 'however, angels, who are greater in might and power, do not bring a slanderous charge against them before the Lord.',
                     12 => 'But these people, like irrational animals — creatures of instinct born to be caught and destroyed — slander what they do not understand, and in their destruction they too will be destroyed.',
                     13 => 'They will be paid back with harm for the harm they have done. They consider it a pleasure to carouse in broad daylight. They are spots and blemishes, delighting in their deceptions while they feast with you.',

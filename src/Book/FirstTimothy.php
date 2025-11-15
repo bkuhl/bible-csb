@@ -285,7 +285,7 @@ class FirstTimothy extends Book
                 ],
                 'verses' => [
                     1 => 'All who are under the yoke as slaves should regard their own masters as worthy of all respect, so that God\'s name and his teaching will not be blasphemed.',
-                    2 => 'Teach and encourage these things.',
+                    2 => 'Let those who have believing masters not be disrespectful to them because they are brothers, but serve them even better, since those who benefit from their service are believers and dearly loved. Teach and encourage these things.',
                     3 => 'If anyone teaches false doctrine and does not agree with the sound teaching of our Lord Jesus Christ and with the teaching that promotes godliness,',
                     4 => 'he is conceited and understands nothing, but has an unhealthy interest in disputes and arguments over words. From these come envy, quarreling, slander, evil suspicions,',
                     5 => 'and constant disagreement among people whose minds are depraved and deprived of the truth, who imagine that godliness is a way to material gain.',
@@ -308,7 +308,7 @@ class FirstTimothy extends Book
                 ],
                 'versesToSections' => [
                     1 => 1,
-                    2 => 2,
+                    2 => 1,
                     3 => 2,
                     4 => 2,
                     5 => 2,

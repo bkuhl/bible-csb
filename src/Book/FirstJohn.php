@@ -218,7 +218,7 @@ class FirstJohn extends Book
                     13 => 'This is how we know that we remain in him and he in us: He has given us of his Spirit.',
                     14 => 'And we have seen and we testify that the Father has sent his Son as the world\'s Savior.',
                     15 => 'Whoever confesses that Jesus is the Son of God — God remains in him and he in God.',
-                    16 => 'God is love, and the one who remains in love remains in God, and God remains in him.',
+                    16 => 'And we have come to know and to believe the love that God has for us. God is love, and the one who remains in love remains in God, and God remains in him.',
                     17 => 'In this, love is made complete with us so that we may have confidence in the day of judgment, because as he is, so also are we in this world.',
                     18 => 'There is no fear in love; instead, perfect love drives out fear, because fear involves punishment. So the one who fears is not complete in love.',
                     19 => 'We love because he first loved us.',

@@ -45,7 +45,7 @@ class SecondJohn extends Book
                     3 => 'Farewell',
                 ],
                 'verses' => [
-                    1 => 'To the elect lady and her children, whom I love in the truth — and not only I, but also all who know the truth —',
+                    1 => 'The elder: To the elect lady and her children, whom I love in the truth — and not only I, but also all who know the truth —',
                     2 => 'because of the truth that remains in us and will be with us forever.',
                     3 => 'Grace, mercy, and peace will be with us from God the Father and from Jesus Christ, the Son of the Father, in truth and love.',
                     4 => 'I was very glad to find some of your children walking in truth, in keeping with a command we have received from the Father.',

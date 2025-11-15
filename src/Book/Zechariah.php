@@ -161,7 +161,7 @@ class Zechariah extends Book
                 ],
                 'verses' => [
                     1 => 'The angel who was speaking with me then returned and roused me as one awakened out of sleep.',
-                    2 => 'I replied, "I see a solid gold lampstand with a bowl at the top. The lampstand also has seven lamps at the top with seven spouts for each of the lamps.',
+                    2 => 'He asked me, "What do you see? " I replied, "I see a solid gold lampstand with a bowl at the top. The lampstand also has seven lamps at the top with seven spouts for each of the lamps.',
                     3 => 'There are also two olive trees beside it, one on the right of the bowl and the other on its left."',
                     4 => 'Then I asked the angel who was speaking with me, "What are these, my lord? "',
                     5 => '"Don\'t you know what they are? " replied the angel who was speaking with me. I said, "No, my lord."',
@@ -203,7 +203,7 @@ class Zechariah extends Book
                     3 => 'Then he said to me, "This is the curse that is going out over the whole land, for everyone who is a thief, contrary to what is written on one side, has gone unpunished, and everyone who swears falsely, contrary to what is written on the other side, has gone unpunished.',
                     4 => 'I will send it out," — this is the declaration of the <span class="smallcaps">Lord</span> of Armies — "and it will enter the house of the thief and the house of the one who swears falsely by my name. It will stay inside his house and destroy it along with its timbers and stones."',
                     5 => 'Then the angel who was speaking with me came forward and told me, "Look up and see what this is that is approaching."',
-                    6 => 'He responded, "It\'s a measuring basket that is approaching." And he continued, "This is their iniquity in all the land."',
+                    6 => 'So I asked, "What is it? " He responded, "It\'s a measuring basket that is approaching." And he continued, "This is their iniquity in all the land."',
                     7 => 'Then a lead cover was lifted, and there was a woman sitting inside the basket.',
                     8 => '"This is Wickedness," he said. He shoved her down into the basket and pushed the lead weight over its opening.',
                     9 => 'Then I looked up and saw two women approaching with the wind in their wings. Their wings were like those of a stork, and they lifted up the basket between earth and sky.',

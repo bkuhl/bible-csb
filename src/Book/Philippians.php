@@ -46,7 +46,7 @@ class Philippians extends Book
                     4 => 'Living Is Christ',
                 ],
                 'verses' => [
-                    1 => 'To all the saints in Christ Jesus who are in Philippi, including the overseers and deacons.',
+                    1 => 'Paul and Timothy, servants of Christ Jesus: To all the saints in Christ Jesus who are in Philippi, including the overseers and deacons.',
                     2 => 'Grace to you and peace from God our Father and the Lord Jesus Christ.',
                     3 => 'I give thanks to my God for every remembrance of you,',
                     4 => 'always praying with joy for all of you in my every prayer,',

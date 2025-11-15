@@ -297,7 +297,7 @@ class Daniel extends Book
                     16 => 'Let his mind be changed from that of a human, and let him be given the mind of an animal for seven periods of time.',
                     17 => 'This word is by decree of the watchers, and the decision is by command from the holy ones. This is so that the living will know that the Most High is ruler over human kingdoms. He gives them to anyone he wants and sets the lowliest of people over them.',
                     18 => 'This is the dream that I, King Nebuchadnezzar, had. Now, Belteshazzar, tell me the interpretation, because none of the wise men of my kingdom can make the interpretation known to me. But you can, because you have a spirit of the holy gods."',
-                    19 => 'Belteshazzar answered, "My lord, may the dream apply to those who hate you, and its interpretation to your enemies!',
+                    19 => 'Then Daniel, whose name is Belteshazzar, was stunned for a moment, and his thoughts alarmed him. The king said, "Belteshazzar, don\'t let the dream or its interpretation alarm you." Belteshazzar answered, "My lord, may the dream apply to those who hate you, and its interpretation to your enemies!',
                     20 => 'The tree you saw, which grew large and strong, whose top reached to the sky and was visible to the whole earth,',
                     21 => 'and whose leaves were beautiful and its fruit abundant — and on it was food for all, under it the wild animals lived, and in its branches the birds of the sky lived —',
                     22 => 'that tree is you, Your Majesty. For you have become great and strong: your greatness has grown and even reaches the sky, and your dominion extends to the ends of the earth.',
@@ -719,7 +719,7 @@ class Daniel extends Book
                 ],
                 'verses' => [
                     1 => 'In the first year of Darius the Mede, I stood up to strengthen and protect him.)',
-                    2 => '"Three more kings will arise in Persia, and the fourth will be far richer than the others. By the power he gains through his riches, he will stir up everyone against the kingdom of Greece.',
+                    2 => 'Now I will tell you the truth. "Three more kings will arise in Persia, and the fourth will be far richer than the others. By the power he gains through his riches, he will stir up everyone against the kingdom of Greece.',
                     3 => 'Then a warrior king will arise; he will rule a vast realm and do whatever he wants.',
                     4 => 'But as soon as he is established, his kingdom will be broken up and divided to the four winds of heaven, but not to his descendants; it will not be the same kingdom that he ruled, because his kingdom will be uprooted and will go to others besides them.',
                     5 => '"The king of the South will grow powerful, but one of his commanders will grow more powerful and will rule a kingdom greater than his.',
@@ -766,7 +766,7 @@ class Daniel extends Book
                 ],
                 'versesToSections' => [
                     1 => 0,
-                    2 => 1,
+                    2 => 0,
                     3 => 1,
                     4 => 1,
                     5 => 2,

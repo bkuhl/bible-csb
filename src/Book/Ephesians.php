@@ -46,7 +46,7 @@ class Ephesians extends Book
                     4 => 'God\'s Power in Christ',
                 ],
                 'verses' => [
-                    1 => 'To the faithful saints in Christ Jesus at Ephesus.',
+                    1 => 'Paul, an apostle of Christ Jesus by God\'s will: To the faithful saints in Christ Jesus at Ephesus.',
                     2 => 'Grace to you and peace from God our Father and the Lord Jesus Christ.',
                     3 => 'Blessed is the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavens in Christ.',
                     4 => 'For he chose us in him, before the foundation of the world, to be holy and blameless in love before him.',

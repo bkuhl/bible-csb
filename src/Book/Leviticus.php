@@ -142,7 +142,7 @@ class Leviticus extends Book
                     13 => 'He must lay his hand on its head and slaughter it before the tent of meeting. Aaron\'s sons will splatter its blood on all sides of the altar.',
                     14 => 'He will present part of his offering as a food offering to the <span class="smallcaps">Lord</span>: the fat surrounding the entrails, all the fat that is on the entrails,',
                     15 => 'and the two kidneys with the fat on them at the loins; he will also remove the fatty lobe of the liver with the kidneys.',
-                    16 => '"All fat belongs to the <span class="smallcaps">Lord</span>.',
+                    16 => 'Then the priest will burn the food on the altar, as a food offering for a pleasing aroma. "All fat belongs to the <span class="smallcaps">Lord</span>.',
                     17 => 'This is a permanent statute throughout your generations, wherever you live: you must not eat any fat or any blood."',
                 ],
                 'versesToSections' => [

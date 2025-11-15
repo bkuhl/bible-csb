@@ -44,7 +44,7 @@ class SecondThessalonians extends Book
                     2 => 'God\'s Judgment and Glory',
                 ],
                 'verses' => [
-                    1 => 'To the church of the Thessalonians in God our Father and the Lord Jesus Christ.',
+                    1 => 'Paul, Silvanus, and Timothy: To the church of the Thessalonians in God our Father and the Lord Jesus Christ.',
                     2 => 'Grace to you and peace from God our Father and the Lord Jesus Christ.',
                     3 => 'We ought to thank God always for you, brothers and sisters, and rightly so, since your faith is flourishing and the love each one of you has for one another is increasing.',
                     4 => 'Therefore, we ourselves boast about you among God\'s churches — about your perseverance and faith in all the persecutions and afflictions that you are enduring.',

@@ -46,7 +46,7 @@ class ThirdJohn extends Book
                     4 => 'Farewell',
                 ],
                 'verses' => [
-                    1 => 'To my dear friend Gaius, whom I love in the truth.',
+                    1 => 'The elder: To my dear friend Gaius, whom I love in the truth.',
                     2 => 'Dear friend, I pray that you are prospering in every way and are in good health, just as your whole life is going well.',
                     3 => 'For I was very glad when fellow believers came and testified to your fidelity to the truth — how you are walking in truth.',
                     4 => 'I have no greater joy than this: to hear that my children are walking in truth.',

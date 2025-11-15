@@ -98,7 +98,7 @@ class Ruth extends Book
                 ],
                 'verses' => [
                     1 => 'Now Naomi had a relative on her husband\'s side. He was a prominent man of noble character from Elimelech\'s family. His name was Boaz.',
-                    2 => 'Naomi answered her, "Go ahead, my daughter."',
+                    2 => 'Ruth the Moabitess asked Naomi, "Will you let me go into the fields and gather fallen grain behind someone with whom I find favor? " Naomi answered her, "Go ahead, my daughter."',
                     3 => 'So Ruth left and entered the field to gather grain behind the harvesters. She happened to be in the portion of the field belonging to Boaz, who was from Elimelech\'s family.',
                     4 => 'Later, when Boaz arrived from Bethlehem, he said to the harvesters, "The <span class="smallcaps">Lord</span> be with you." "The <span class="smallcaps">Lord</span> bless you," they replied.',
                     5 => 'Boaz asked his servant who was in charge of the harvesters, "Whose young woman is this? "',
@@ -167,7 +167,7 @@ class Ruth extends Book
                     13 => 'Stay here tonight, and in the morning, if he wants to redeem you, that\'s good. Let him redeem you. But if he doesn\'t want to redeem you, as the <span class="smallcaps">Lord</span> lives, I will. Now lie down until morning."',
                     14 => 'So she lay down at his feet until morning but got up while it was still dark. Then Boaz said, "Don\'t let it be known that a woman came to the threshing floor."',
                     15 => 'And he told Ruth, "Bring the shawl you\'re wearing and hold it out." When she held it out, he shoveled six measures of barley into her shawl, and she went into the town.',
-                    16 => 'Then Ruth told her everything the man had done for her.',
+                    16 => 'She went to her mother-in-law, Naomi, who asked her, "What happened, my daughter? " Then Ruth told her everything the man had done for her.',
                     17 => 'She said, "He gave me these six measures of barley, because he said, \'Don\'t go back to your mother-in-law empty-handed.\' "',
                     18 => 'Naomi said, "My daughter, wait until you find out how things go, for he won\'t rest unless he resolves this today."',
                 ],
