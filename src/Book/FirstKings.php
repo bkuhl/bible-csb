@@ -651,7 +651,7 @@ class FirstKings extends Book
                     15 => 'He said: Blessed be the <span class="smallcaps">Lord</span> God of Israel! He spoke directly to my father David, and he has fulfilled the promise by his power. He said,',
                     16 => '"Since the day I brought my people Israel out of Egypt, I have not chosen a city to build a temple in among any of the tribes of Israel, so that my name would be there. But I have chosen David to rule my people Israel."',
                     17 => 'My father David had his heart set on building a temple for the name of the , the God of Israel. "Since your heart was set on building a temple for my name, you have done well to have this desire.',
-                    18 => 'But the <span class="smallcaps">Lord</span> said to my father David,',
+                    18 => 'But the <span class="smallcaps">Lord</span> said to my father David, "Since your heart was set on building a temple for my name, you have done well to have this desire.',
                     19 => 'Yet you are not the one to build it; instead, your son, your own offspring, will build it for my name."',
                     20 => 'The <span class="smallcaps">Lord</span> has fulfilled what he promised. I have taken the place of my father David, and I sit on the throne of Israel, as the <span class="smallcaps">Lord</span> promised. I have built the temple for the name of the <span class="smallcaps">Lord</span>, the God of Israel.',
                     21 => 'I have provided a place there for the ark, where the <span class="smallcaps">Lord</span>\'s covenant is that he made with our ancestors when he brought them out of the land of Egypt.',

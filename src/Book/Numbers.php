@@ -758,7 +758,7 @@ class Numbers extends Book
                     5 => 'Then the <span class="smallcaps">Lord</span> descended in a pillar of cloud, stood at the entrance to the tent, and summoned Aaron and Miriam. When the two of them came forward,',
                     6 => 'he said: "Listen to what I say: If there is a prophet among you from the <span class="smallcaps">Lord</span>, I make myself known to him in a vision; I speak with him in a dream.',
                     7 => 'Not so with my servant Moses; he is faithful in all my household. openly, and not in riddles; he sees the form of the . So why were you not afraid to speak against my servant Moses? "',
-                    8 => 'I speak with him directly,',
+                    8 => 'I speak with him directly, openly, and not in riddles; he sees the form of the .',
                     9 => 'The <span class="smallcaps">Lord</span>\'s anger burned against them, and he left.',
                     10 => 'As the cloud moved away from the tent, Miriam\'s skin suddenly became diseased, resembling snow. When Aaron turned toward her, he saw that she was diseased',
                     11 => 'and said to Moses, "My lord, please don\'t hold against us this sin we have so foolishly committed.',

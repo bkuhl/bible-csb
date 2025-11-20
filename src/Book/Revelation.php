@@ -822,7 +822,7 @@ class Revelation extends Book
                     2 => 'He called out in a mighty voice: It has fallen, Babylon the Great has fallen! She has become a home for demons, a haunt for every unclean spirit, a haunt for every unclean bird, and a haunt for every unclean and despicable beast.',
                     3 => 'For all the nations have drunk the wine of her sexual immorality, which brings wrath. The kings of the earth have committed sexual immorality with her, and the merchants of the earth have grown wealthy from her sensuality and excess.',
                     4 => 'Then I heard another voice from heaven: Come out of her, my people, so that you will not share in her sins or receive any of her plagues. and God has remembered her crimes.',
-                    5 => 'For her sins are piled up to heaven,',
+                    5 => 'For her sins are piled up to heaven, and God has remembered her crimes.',
                     6 => 'Pay her back the way she also paid, and double it according to her works. In the cup in which she mixed, mix a double portion for her.',
                     7 => 'As much as she glorified herself and indulged her sensual and excessive ways, give her that much torment and grief. For she says in her heart, "I sit as a queen; I am not a widow, and I will never see grief."',
                     8 => 'For this reason her plagues will come in just one day — death and grief and famine. She will be burned up with fire, because the Lord God who judges her is mighty.',
